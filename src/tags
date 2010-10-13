@@ -1,0 +1,1357 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+AMIGA_VAL	arm7\source\Sound7.c	47;"	d	file:
+ARRAYSIZE	arm9\source\lg\lg.h	11;"	d
+ASSERT	arm7\source\ModFile.c	/^inline void ASSERT(bool x) { }$/;"	f
+ASSERT	arm9\source\Sound9.cpp	/^inline void ASSERT(bool x) { }$/;"	f
+Abs	arm9\source\lg\lg.h	/^template <class T> T Abs(const T& t)$/;"	f
+ActivateRandomCloud	arm9\source\sim.cpp	/^void Sim::ActivateRandomCloud()$/;"	f	class:Sim
+Add	arm9\source\gui.cpp	/^void Screen::Add(GuiItem* item)$/;"	f	class:Screen
+Add	arm9\source\iconmenu.cpp	/^int IconMenu::Add(BuildingIndex index, const char* caption)$/;"	f	class:IconMenu
+Add	arm9\source\message.cpp	/^void MessageDisplay::Add(int player, MessageType mt, int aux0)$/;"	f	class:MessageDisplay
+Add	arm9\source\object_mgr.cpp	/^WorldObject* ObjectMgr::Add(const V2& pos, SpriteInstance* si, bool ownSI)$/;"	f	class:ObjectMgr
+Add	arm9\source\sim.cpp	/^void Buildings::Add(int owner, BuildingIndex building, const V2& loc, int currentRound)$/;"	f	class:Buildings
+Add	arm9\source\tips.cpp	/^void Tips::Add(TipType tip)$/;"	f	class:Tips
+Add	arm9\source\touch_smoother.cpp	/^void TouchSmoother::Add(const touchPosition& tp)$/;"	f	class:TouchSmoother
+AddFrame	arm9\source\lg\sprite.cpp	/^void SpriteData::AddFrame(const u8* data)$/;"	f	class:luvafair::SpriteData
+AddPopulation	arm9\source\sim.h	/^	void AddPopulation(int val) { mPopulation += val; }$/;"	f	class:Player
+AddShip	arm9\source\sim.cpp	/^void Player::AddShip(WorldObject* ship)$/;"	f	class:Player
+AdjustXForAlignment	arm9\source\lg\font.cpp	/^void Font::AdjustXForAlignment(const char* str, int& sx, TextAlignment alignment)$/;"	f	class:luvafair::Font
+AllocatePalette	arm9\source\lg\sprite.cpp	/^int SpriteHardware::AllocatePalette(const u8* palette)$/;"	f	class:luvafair::SpriteHardware
+AllocateRotation	arm9\source\lg\sprite.cpp	/^int SpriteHardware::AllocateRotation()$/;"	f	class:luvafair::SpriteHardware
+Arrow	arm9\source\gui.h	/^		Arrow(int x, int y, int w, int h, ArrowType type, ButtonCallback func, void* user = 0)$/;"	f	class:Arrow
+Arrow	arm9\source\gui.h	/^class Arrow : public GuiItem$/;"	c
+ArrowType	arm9\source\gui.h	/^enum ArrowType$/;"	g
+Arrow_Left	arm9\source\gui.h	/^	Arrow_Left,$/;"	e	enum:ArrowType
+Arrow_Right	arm9\source\gui.h	/^	Arrow_Right,$/;"	e	enum:ArrowType
+At	arm9\source\sim.cpp	/^BuildingIndex Buildings::At(const V2& location, int* owner, int* builtOn) const$/;"	f	class:Buildings
+At	arm9\source\sim.cpp	/^BuildingIndex Sim::At(const V2& location) const$/;"	f	class:Sim
+At	arm9\source\sim.cpp	/^BuildingIndex Sim::At(const V2& location, PlayerId id) const$/;"	f	class:Sim
+Audio	arm9\source\audio.h	/^class Audio$/;"	c
+BOOL	SoundCommon.h	/^typedef u8 BOOL;$/;"	t
+Background	arm9\source\gui.h	/^	Background(u16 colour) : mColour(colour) {}$/;"	f	class:Background
+Background	arm9\source\gui.h	/^class Background : public GuiItem$/;"	c
+BuildBestFood	arm9\source\cpu_player.cpp	/^void CpuPlayer::BuildBestFood()$/;"	f	class:CpuPlayer
+BuildBestHousing	arm9\source\cpu_player.cpp	/^void CpuPlayer::BuildBestHousing()$/;"	f	class:CpuPlayer
+BuildLocation	arm9\source\sim.h	/^		const V2& BuildLocation(PlayerId player) const { assert(CurrentBuilding(player) != BuildingIndex_Invalid); return mPlayers[player].GetBuildLocation(); }$/;"	f	class:Sim
+BuildSchooling	arm9\source\cpu_player.cpp	/^void CpuPlayer::BuildSchooling()$/;"	f	class:CpuPlayer
+BuildSomething	arm9\source\cpu_player.cpp	/^void CpuPlayer::BuildSomething()$/;"	f	class:CpuPlayer
+Building	arm9\source\sim.h	/^		Building() : mOwner(0xff), mType(BuildingIndex_Invalid), mBuiltOn(-1) {}$/;"	f	struct:Buildings::Building
+Building	arm9\source\sim.h	/^	struct Building$/;"	s	class:Buildings
+BuildingIndex	arm9\source\buildings.h	/^enum BuildingIndex$/;"	g
+BuildingIndex_Apartment	arm9\source\buildings.h	/^	BuildingIndex_Apartment,$/;"	e	enum:BuildingIndex
+BuildingIndex_Bulldozer	arm9\source\buildings.h	/^	BuildingIndex_Bulldozer,$/;"	e	enum:BuildingIndex
+BuildingIndex_Cancel	arm9\source\buildings.h	/^	BuildingIndex_Cancel,$/;"	e	enum:BuildingIndex
+BuildingIndex_Count	arm9\source\buildings.h	/^	BuildingIndex_Count$/;"	e	enum:BuildingIndex
+BuildingIndex_Crops	arm9\source\buildings.h	/^	BuildingIndex_Crops,$/;"	e	enum:BuildingIndex
+BuildingIndex_Destroyed	arm9\source\buildings.h	/^	BuildingIndex_Destroyed,$/;"	e	enum:BuildingIndex
+BuildingIndex_ExpiredCrops	arm9\source\buildings.h	/^	BuildingIndex_ExpiredCrops,$/;"	e	enum:BuildingIndex
+BuildingIndex_Factory	arm9\source\buildings.h	/^	BuildingIndex_Factory,$/;"	e	enum:BuildingIndex
+BuildingIndex_Farm	arm9\source\buildings.h	/^	BuildingIndex_Farm,$/;"	e	enum:BuildingIndex
+BuildingIndex_First	arm9\source\buildings.h	/^	BuildingIndex_First,$/;"	e	enum:BuildingIndex
+BuildingIndex_FoodImport	arm9\source\buildings.h	/^	BuildingIndex_FoodImport,$/;"	e	enum:BuildingIndex
+BuildingIndex_Hospital	arm9\source\buildings.h	/^	BuildingIndex_Hospital,$/;"	e	enum:BuildingIndex
+BuildingIndex_House	arm9\source\buildings.h	/^	BuildingIndex_House,$/;"	e	enum:BuildingIndex
+BuildingIndex_Hut	arm9\source\buildings.h	/^	BuildingIndex_Hut = BuildingIndex_First,$/;"	e	enum:BuildingIndex
+BuildingIndex_Invalid	arm9\source\buildings.h	/^	BuildingIndex_Invalid = -1,$/;"	e	enum:BuildingIndex
+BuildingIndex_LandingPad	arm9\source\buildings.h	/^	BuildingIndex_LandingPad,$/;"	e	enum:BuildingIndex
+BuildingIndex_LastOnBuyMenu	arm9\source\buildings.h	/^	BuildingIndex_LastOnBuyMenu = BuildingIndex_Cancel,$/;"	e	enum:BuildingIndex
+BuildingIndex_Missiles	arm9\source\buildings.h	/^	BuildingIndex_Missiles,$/;"	e	enum:BuildingIndex
+BuildingIndex_ReclaimedLand	arm9\source\buildings.h	/^	BuildingIndex_ReclaimedLand,$/;"	e	enum:BuildingIndex
+BuildingIndex_School	arm9\source\buildings.h	/^	BuildingIndex_School,$/;"	e	enum:BuildingIndex
+BuildingIndex_University	arm9\source\buildings.h	/^	BuildingIndex_University,$/;"	e	enum:BuildingIndex
+BuildingIndex_WarBoat	arm9\source\buildings.h	/^	BuildingIndex_WarBoat,$/;"	e	enum:BuildingIndex
+Buildings	arm9\source\sim.cpp	/^Buildings::Buildings(Map& map) : mMap(map)$/;"	f	class:Buildings
+Buildings	arm9\source\sim.h	/^class Buildings$/;"	c
+Button	arm9\source\gui.h	/^	Button(const char* text, int x, int y, int w, int h, ButtonCallback func, void* user = 0)$/;"	f	class:Button
+Button	arm9\source\gui.h	/^class Button : public GuiItem$/;"	c
+ButtonCallback	arm9\source\gui.cpp	/^typedef void (*ButtonCallback)(GuiItem* item, Screen* screen, void* p);$/;"	t	file:
+ButtonCallback	arm9\source\gui.h	/^typedef void (*ButtonCallback)(GuiItem* item, Screen* screen, void* p);$/;"	t
+COMMAND_FUNC_PTR	arm7\source\Sound7.c	/^typedef void (*COMMAND_FUNC_PTR)(SND_COMMAND *cmd);$/;"	t	file:
+CanBuild	arm9\source\util.cpp	/^bool CanBuild(const Sim& sim, const Map& map, BuildingIndex buildingIndex, const V2& square, Map::MapFlags localPlayerFlag, Map::MapFlags localPlayerFlagReclaim)$/;"	f
+CanBuy	arm9\source\sim.cpp	/^bool Sim::CanBuy(PlayerId player, BuildingIndex buildingIndex) const$/;"	f	class:Sim
+CanSpend	arm9\source\sim.h	/^	bool CanSpend(luvafair::F32 money) const { return mMoney >= money; }$/;"	f	class:Player
+CheckForPopulationWin	arm9\source\sim.cpp	/^void Sim::CheckForPopulationWin()$/;"	f	class:Sim
+CheckMemoryHeader	arm9\source\saved_inputs.cpp	/^static int CheckMemoryHeader(char* magic)$/;"	f	file:
+Clear	arm9\source\lg\draw.cpp	/^	void Clear(u16* bg, u16 colour)$/;"	f	namespace:luvafair
+Clear	arm9\source\lg\memtrack.cpp	/^	void TrackCheckpoint::Clear()$/;"	f	class:lg::TrackCheckpoint
+Clear	arm9\source\lg\srast.h	/^	void Clear(T colour)$/;"	f	class:SRastBuffer
+Clear	arm9\source\message.cpp	/^void MessageDisplay::Clear()$/;"	f	class:MessageDisplay
+ClearAllPending	arm9\source\tips.cpp	/^void Tips::ClearAllPending()$/;"	f	class:Tips
+Cloud	arm9\source\sim.h	/^	Cloud() : cropCount(0) {}$/;"	f	struct:Cloud
+Cloud	arm9\source\sim.h	/^struct Cloud : public WanderingWorldObject$/;"	s
+Colour_ButtonBorder	arm9\source\gui.cpp	7;"	d	file:
+Colour_ButtonInlay	arm9\source\gui.cpp	8;"	d	file:
+Colour_TextDisabled	arm9\source\gui.cpp	10;"	d	file:
+Colour_TextEnabled	arm9\source\gui.cpp	9;"	d	file:
+Completed	arm9\source\scenario.cpp	/^ScenarioResult ScenarioTimedPopulation::Completed(const Sim& sim)$/;"	f	class:ScenarioTimedPopulation
+Construct	arm9\source\sim.cpp	/^BuildingIndex Player::Construct(V2& loc)$/;"	f	class:Player
+Construction	arm9\source\sim.h	/^	Construction()$/;"	f	class:Construction
+Construction	arm9\source\sim.h	/^class Construction$/;"	c
+Contains	arm9\source\lg\memtrack.cpp	/^	bool TrackCheckpoint::Contains(int i) const$/;"	f	class:lg::TrackCheckpoint
+CostOf	arm9\source\sim.cpp	/^u16 Player::CostOf(BuildingIndex i) const$/;"	f	class:Player
+CostOf	arm9\source\sim.h	/^		u16 CostOf(PlayerId player, BuildingIndex building) const { return mPlayers[player].CostOf(building); }$/;"	f	class:Sim
+CpuPlayer	arm9\source\cpu_player.cpp	/^CpuPlayer::CpuPlayer(PlayerId player, Sim& sim, Map& map, Map::MapFlags flags, Map::MapFlags reclaimFlags) : mId(player), mSim(sim), mMap(map), mFlags(flags), mReclaimFlags(reclaimFlags), mUpdate(0)$/;"	f	class:CpuPlayer
+CpuPlayer	arm9\source\cpu_player.h	/^class CpuPlayer$/;"	c
+CreateFish	arm9\source\render.cpp	/^SpriteInstance* Render::CreateFish()$/;"	f	class:Render
+CreateFishingBoat	arm9\source\render.cpp	/^SpriteInstance* Render::CreateFishingBoat()$/;"	f	class:Render
+CreatePirate	arm9\source\render.cpp	/^SpriteInstance* Render::CreatePirate()$/;"	f	class:Render
+CreateRainCloud	arm9\source\render.cpp	/^SpriteInstance* Render::CreateRainCloud()$/;"	f	class:Render
+CreateScenario	arm9\source\fe.cpp	/^void CreateScenario()$/;"	f
+CreateStormCloud	arm9\source\render.cpp	/^SpriteInstance* Render::CreateStormCloud()$/;"	f	class:Render
+CreateTornado	arm9\source\render.cpp	/^SpriteInstance* Render::CreateTornado()$/;"	f	class:Render
+CurrentBuilding	arm9\source\sim.h	/^		BuildingIndex CurrentBuilding(PlayerId player) const { assert(player == 0 || player == 1); return mPlayers[player].GetCurrentBuilding(); }$/;"	f	class:Sim
+CurrentResearch	arm9\source\sim.cpp	/^Technology Sim::CurrentResearch(PlayerId player) const$/;"	f	class:Sim
+DeclareWar	arm9\source\cpu_player.cpp	/^void CpuPlayer::DeclareWar()$/;"	f	class:CpuPlayer
+Destroy	arm9\source\sim.cpp	/^void Buildings::Destroy(const V2& loc, BuildingIndex destroyed)$/;"	f	class:Buildings
+DestroySomethingFor	arm9\source\cpu_player.cpp	/^bool CpuPlayer::DestroySomethingFor(BuildingIndex building, V2& result)$/;"	f	class:CpuPlayer
+Dismiss	arm9\source\tips.cpp	/^void Tips::Dismiss(u16* bg)$/;"	f	class:Tips
+DistanceSq	arm9\source\lg\v2.h	/^	luvafair::F32 DistanceSq(const V2NoCtor& other) const$/;"	f	class:V2NoCtor
+DmaCopy	arm9\source\lg\sprite.cpp	/^inline void DmaCopy(void* dest, const void* source, int size)$/;"	f	namespace:luvafair
+DoBackEnd	arm9\source\main.cpp	/^void DoBackEnd(GameMode gm)$/;"	f
+DoClouds	arm9\source\sim.cpp	/^void Sim::DoClouds()$/;"	f	class:Sim
+DoFrontEnd	arm9\source\fe.cpp	/^GameMode DoFrontEnd()$/;"	f
+DoMissiles	arm9\source\sim.cpp	/^void Sim::DoMissiles()$/;"	f	class:Sim
+DoResearchAndBuilding	arm9\source\sim.cpp	/^void Sim::DoResearchAndBuilding()$/;"	f	class:Sim
+DoTornado	arm9\source\sim.cpp	/^void Sim::DoTornado()$/;"	f	class:Sim
+DockSquares	arm9\source\sim.cpp	/^static V2NoCtor DockSquares[] =$/;"	v	file:
+Dot	arm9\source\lg\v2.h	/^	luvafair::F32 Dot(const V2NoCtor& rhs) const$/;"	f	class:V2NoCtor
+Draw	arm9\source\gui.cpp	/^void Arrow::Draw(u16* bg)$/;"	f	class:Arrow
+Draw	arm9\source\gui.cpp	/^void Background::Draw(u16* bg)$/;"	f	class:Background
+Draw	arm9\source\gui.cpp	/^void Button::Draw(u16* bg)$/;"	f	class:Button
+Draw	arm9\source\gui.cpp	/^void Image::Draw(u16* bg)$/;"	f	class:Image
+Draw	arm9\source\gui.cpp	/^void Label::Draw(u16* bg)$/;"	f	class:Label
+Draw	arm9\source\gui.cpp	/^void Screen::Draw()$/;"	f	class:Screen
+Draw	arm9\source\gui.cpp	/^void WrappedLabel::Draw(u16* bg)$/;"	f	class:WrappedLabel
+Draw	arm9\source\iconmenu.cpp	/^void IconMenu::Draw(u16* bg)$/;"	f	class:IconMenu
+Draw	arm9\source\tips.cpp	/^void Tips::Draw(u16* bg)$/;"	f	class:Tips
+DrawFilledRect	arm9\source\lg\draw.cpp	/^	void DrawFilledRect(u16* bg, int xx, int yy, int w, int h, u16 colour)$/;"	f	namespace:luvafair
+DrawIcon	arm9\source\iconmenu.cpp	/^void IconMenu::DrawIcon(u16* bg, int xx, int yy, const u8* icon)$/;"	f	class:IconMenu
+DrawIcon	arm9\source\lg\draw.cpp	/^	void DrawIcon(u16* bg, u16* icon, int x, int y, int w, int h)$/;"	f	namespace:luvafair
+DrawLine	arm9\source\lg\draw.cpp	/^	void DrawLine(u16* bg, int x0, int y0, int x1, int y1, u16 colour)$/;"	f	namespace:luvafair
+DrawLine	arm9\source\lg\srast.h	/^    void DrawLine(int x0, int y0, int x1, int y1, T colour)$/;"	f	class:SRastBuffer
+DrawLineGraph	arm9\source\linegraph.cpp	/^void DrawLineGraph(u16* bg, luvafair::Font& font, const F32* history, u16 numElems, const char* title)$/;"	f
+DrawPixel	arm9\source\lg\srast.h	/^	void DrawPixel(int x, int y, T colour)$/;"	f	class:SRastBuffer
+DrawPolygon	arm9\source\lg\draw.cpp	/^	void DrawPolygon(u16* bg, int numPoints, const int* points, u16 colour)$/;"	f	namespace:luvafair
+DrawPolygon	arm9\source\lg\srast.h	/^	void DrawPolygon(int vertices, const int *points, T colour)$/;"	f	class:SRastBuffer
+DrawStatus	arm9\source\main.cpp	/^void DrawStatus(u16* bg, Font& font, const Sim& sim, BuildingIndex toBuy, GameMode mode)$/;"	f
+DrawString	arm9\source\lg\font.cpp	/^void Font::DrawString(u16* bg, const char* str, int sx, int sy, u16 colour, TextAlignment alignment)$/;"	f	class:luvafair::Font
+DrawString8	arm9\source\lg\font.cpp	/^void Font::DrawString8(u16* bg, const char* str, int sx, int sy, u8 colour, TextAlignment alignment)$/;"	f	class:luvafair::Font
+DrawStringWrapped	arm9\source\lg\font.cpp	/^void Font::DrawStringWrapped(u16* bg, const char* str, int x, int y, int w, u16 colour, TextAlignment alignment)$/;"	f	class:luvafair::Font
+DrawTechTree	arm9\source\main.cpp	/^void DrawTechTree(u16* bg, Sim& sim, Font& font, PlayerId localPlayer)$/;"	f
+EFFECT_FUNC_PTR	arm7\source\Sound7.c	/^typedef void (*EFFECT_FUNC_PTR)(MOD_UPDATE_VARS *vars);$/;"	t	file:
+EdgeArrows	arm9\source\edge_arrows.cpp	/^EdgeArrows::EdgeArrows()$/;"	f	class:EdgeArrows
+EdgeArrows	arm9\source\edge_arrows.h	/^class EdgeArrows$/;"	c
+EndRound	arm9\source\sim.cpp	/^void Sim::EndRound()$/;"	f	class:Sim
+Equals	arm9\source\lg\string.cpp	/^	bool String::Equals(const String& rhs) const$/;"	f	class:luvafair::String
+Erase	arm9\source\iconmenu.cpp	/^void IconMenu::Erase(u16* bg)$/;"	f	class:IconMenu
+ExitBackEnd	arm9\source\main.cpp	/^void ExitBackEnd(GuiItem*, Screen*, void*) { gExitBE = true; }$/;"	f
+ExitPauseMenu	arm9\source\main.cpp	/^void ExitPauseMenu(GuiItem*, Screen*, void*)$/;"	f
+ExitWith	arm9\source\fe.cpp	/^void ExitWith(GuiItem* item, Screen* scr, void* p)$/;"	f
+ExpectedBufferSize	arm9\source\lg\srast.h	/^	static inline size_t ExpectedBufferSize(int pitch, int height) { return sizeof(T) * pitch * height; }$/;"	f	class:SRastBuffer
+ExpireCrops	arm9\source\sim.cpp	/^void Sim::ExpireCrops()$/;"	f	class:Sim
+F32	arm9\source\lg\f32.h	/^		F32() : v(0) {}$/;"	f	class:luvafair::F32
+F32	arm9\source\lg\f32.h	/^		F32(float val) : v(floattof32(val)) {}$/;"	f	class:luvafair::F32
+F32	arm9\source\lg\f32.h	/^		F32(int val) : v(inttof32(val)) {}$/;"	f	class:luvafair::F32
+F32	arm9\source\lg\f32.h	/^class F32$/;"	c	namespace:luvafair
+FALSE	SoundCommon.h	31;"	d
+FE	arm9\source\fe.cpp	/^	FE() : mTop(0), mBottom(0) {}$/;"	f	class:FE
+FE	arm9\source\fe.cpp	/^class FE$/;"	c	file:
+FindBuilding	arm9\source\cpu_player.cpp	/^bool CpuPlayer::FindBuilding(BuildingIndex building, V2& result)$/;"	f	class:CpuPlayer
+FindClosestColourTo	arm9\source\progress_build.cpp	/^u8 ProgressBuild::FindClosestColourTo(int r, int g, int b)$/;"	f	class:ProgressBuild
+FindClosestNote	arm7\source\ModFile.c	/^u32 FindClosestNote(u32 period)$/;"	f
+FindLocationFor	arm9\source\cpu_player.cpp	/^bool CpuPlayer::FindLocationFor(BuildingIndex building, V2& result)$/;"	f	class:CpuPlayer
+FindMeterColours	arm9\source\progress_build.cpp	/^void ProgressBuild::FindMeterColours()$/;"	f	class:ProgressBuild
+FindNumberOfFactories	arm9\source\sim.cpp	/^int Sim::FindNumberOfFactories(int player) const$/;"	f	class:Sim
+FindNumberOfFood	arm9\source\sim.cpp	/^int Sim::FindNumberOfFood(int player) const$/;"	f	class:Sim
+FindNumberOfFoodImports	arm9\source\sim.cpp	/^int Sim::FindNumberOfFoodImports(int player) const$/;"	f	class:Sim
+FindNumberOfHousing	arm9\source\sim.cpp	/^int Sim::FindNumberOfHousing(int player) const$/;"	f	class:Sim
+FindNumberOfSchooling	arm9\source\sim.cpp	/^int Sim::FindNumberOfSchooling(int player) const$/;"	f	class:Sim
+FindRandomBuilding	arm9\source\sim.cpp	/^bool Sim::FindRandomBuilding(int player, V2& location)$/;"	f	class:Sim
+FindUnallocatedId	arm9\source\lg\sprite.cpp	/^int SpriteHardware::FindUnallocatedId() const$/;"	f	class:luvafair::SpriteHardware
+FirstBuildingIndex	arm9\source\map.h	/^		int FirstBuildingIndex() const { return ((u16*)mMapData)[2]; }$/;"	f	class:Map
+Flag_DeepWater	arm9\source\map.h	/^			Flag_DeepWater = 0x8,$/;"	e	enum:Map::MapFlags
+Flag_Player1	arm9\source\map.h	/^			Flag_Player1 = 0x1,$/;"	e	enum:Map::MapFlags
+Flag_Player2	arm9\source\map.h	/^			Flag_Player2 = 0x2,$/;"	e	enum:Map::MapFlags
+Flag_ReclaimPlayer1	arm9\source\map.h	/^			Flag_ReclaimPlayer1 = 0x10,$/;"	e	enum:Map::MapFlags
+Flag_ReclaimPlayer2	arm9\source\map.h	/^			Flag_ReclaimPlayer2 = 0x20,$/;"	e	enum:Map::MapFlags
+Flag_Water	arm9\source\map.h	/^			Flag_Water = 0x4,$/;"	e	enum:Map::MapFlags
+Flags	arm9\source\map.cpp	/^int Map::Flags(const V2& loc) const$/;"	f	class:Map
+Font	arm9\source\lg\font.cpp	/^Font::Font(const u8* fontData)$/;"	f	class:luvafair::Font
+Font	arm9\source\lg\font.h	/^	class Font$/;"	c	namespace:luvafair
+FontButton	arm9\source\lg\font.h	/^	enum FontButton$/;"	g	namespace:luvafair
+FontButton_A	arm9\source\lg\font.h	/^		FontButton_A = 131,$/;"	e	enum:luvafair::FontButton
+FontButton_B	arm9\source\lg\font.h	/^		FontButton_B = 132,$/;"	e	enum:luvafair::FontButton
+FontButton_Down	arm9\source\lg\font.h	/^		FontButton_Down = 130,$/;"	e	enum:luvafair::FontButton
+FontButton_Dpad	arm9\source\lg\font.h	/^		FontButton_Dpad = 137,$/;"	e	enum:luvafair::FontButton
+FontButton_L	arm9\source\lg\font.h	/^		FontButton_L = 135,$/;"	e	enum:luvafair::FontButton
+FontButton_LastButton	arm9\source\lg\font.h	/^		FontButton_LastButton = FontButton_Dpad$/;"	e	enum:luvafair::FontButton
+FontButton_Left	arm9\source\lg\font.h	/^		FontButton_Left = 128,$/;"	e	enum:luvafair::FontButton
+FontButton_R	arm9\source\lg\font.h	/^		FontButton_R = 136,$/;"	e	enum:luvafair::FontButton
+FontButton_Right	arm9\source\lg\font.h	/^		FontButton_Right = 127,$/;"	e	enum:luvafair::FontButton
+FontButton_Up	arm9\source\lg\font.h	/^		FontButton_Up = 129,$/;"	e	enum:luvafair::FontButton
+FontButton_X	arm9\source\lg\font.h	/^		FontButton_X = 133,$/;"	e	enum:luvafair::FontButton
+FontButton_Y	arm9\source\lg\font.h	/^		FontButton_Y = 134,$/;"	e	enum:luvafair::FontButton
+FontData	arm9\source\lg\font.h	/^	struct __attribute__((packed)) FontData$/;"	s	namespace:luvafair
+FontFirstCharacter	arm9\source\lg\font.h	/^	enum { FontFirstCharacter = ' ' };$/;"	e	enum:luvafair::<anonymous>
+Format	arm9\source\lg\string.h	/^	inline String Format(const char* fmt) { return String(fmt); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9> String Format(const char* fmt, const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, const T5& t5, const T6& t6, const T7& t7, const T8& t8, const T9& t9) { return InternalFormat(fmt, 10, ToString(t0).c_str(), ToString(t1).c_str(), ToString(t2).c_str(), ToString(t3).c_str(), ToString(t4).c_str(), ToString(t5).c_str(), ToString(t6).c_str(), ToString(t7).c_str(), ToString(t8).c_str(), ToString(t9).c_str()); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8> String Format(const char* fmt, const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, const T5& t5, const T6& t6, const T7& t7, const T8& t8) { return InternalFormat(fmt, 9, ToString(t0).c_str(), ToString(t1).c_str(), ToString(t2).c_str(), ToString(t3).c_str(), ToString(t4).c_str(), ToString(t5).c_str(), ToString(t6).c_str(), ToString(t7).c_str(), ToString(t8).c_str()); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7> String Format(const char* fmt, const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, const T5& t5, const T6& t6, const T7& t7) { return InternalFormat(fmt, 8, ToString(t0).c_str(), ToString(t1).c_str(), ToString(t2).c_str(), ToString(t3).c_str(), ToString(t4).c_str(), ToString(t5).c_str(), ToString(t6).c_str(), ToString(t7).c_str()); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0, class T1, class T2, class T3, class T4, class T5, class T6> String Format(const char* fmt, const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, const T5& t5, const T6& t6) { return InternalFormat(fmt, 7, ToString(t0).c_str(), ToString(t1).c_str(), ToString(t2).c_str(), ToString(t3).c_str(), ToString(t4).c_str(), ToString(t5).c_str(), ToString(t6).c_str()); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0, class T1, class T2, class T3, class T4, class T5> String Format(const char* fmt, const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, const T5& t5) { return InternalFormat(fmt, 6, ToString(t0).c_str(), ToString(t1).c_str(), ToString(t2).c_str(), ToString(t3).c_str(), ToString(t4).c_str(), ToString(t5).c_str()); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0, class T1, class T2, class T3, class T4> String Format(const char* fmt, const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4) { return InternalFormat(fmt, 5, ToString(t0).c_str(), ToString(t1).c_str(), ToString(t2).c_str(), ToString(t3).c_str(), ToString(t4).c_str()); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0, class T1, class T2, class T3> String Format(const char* fmt, const T0& t0, const T1& t1, const T2& t2, const T3& t3) { return InternalFormat(fmt, 4, ToString(t0).c_str(), ToString(t1).c_str(), ToString(t2).c_str(), ToString(t3).c_str()); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0, class T1, class T2> String Format(const char* fmt, const T0& t0, const T1& t1, const T2& t2)  { return InternalFormat(fmt, 3, ToString(t0).c_str(), ToString(t1).c_str(), ToString(t2).c_str()); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0, class T1> String Format(const char* fmt, const T0& t0, const T1& t1) { return InternalFormat(fmt, 2, ToString(t0).c_str(), ToString(t1).c_str()); }$/;"	f	namespace:luvafair
+Format	arm9\source\lg\string.h	/^	template <class T0> String Format(const char* fmt, const T0& t0) { return InternalFormat(fmt, 1, ToString(t0).c_str()); }$/;"	f	namespace:luvafair
+GameMode	arm9\source\fe.h	/^enum GameMode$/;"	g
+GameMode_FreePlay	arm9\source\fe.h	/^	GameMode_FreePlay,$/;"	e	enum:GameMode
+GameMode_Invalid	arm9\source\fe.h	/^	GameMode_Invalid = -1,$/;"	e	enum:GameMode
+GameMode_LoadGame	arm9\source\fe.h	/^	GameMode_LoadGame,$/;"	e	enum:GameMode
+GameMode_PlaySavedInputs	arm9\source\fe.h	/^	GameMode_PlaySavedInputs,$/;"	e	enum:GameMode
+GameMode_Scenario	arm9\source\fe.h	/^	GameMode_Scenario,$/;"	e	enum:GameMode
+GameMode_VsCpu	arm9\source\fe.h	/^	GameMode_VsCpu,$/;"	e	enum:GameMode
+Get	arm9\source\lg\rand.cpp	/^unsigned int Rand::Get()$/;"	f	class:luvafair::Rand
+Get	arm9\source\lg\scoped_array.h	/^			T* Get() const$/;"	f	class:luvafair::ScopedArray
+Get	arm9\source\lg\scoped_ptr.h	/^		T* Get() const { return mPtr; }$/;"	f	class:luvafair::ScopedPtr
+Get0	arm9\source\lg\sprite.h	/^			uint16 Get0(int id) const { return mSpriteEntries[id].attribute[0]; }$/;"	f	class:luvafair::SpriteHardware
+Get1	arm9\source\lg\sprite.h	/^			uint16 Get1(int id) const { return mSpriteEntries[id].attribute[1]; }$/;"	f	class:luvafair::SpriteHardware
+Get2	arm9\source\lg\sprite.h	/^			uint16 Get2(int id) const { return mSpriteEntries[id].attribute[2]; }$/;"	f	class:luvafair::SpriteHardware
+GetBuildLocation	arm9\source\sim.h	/^	const V2& GetBuildLocation() const { return mConstruction.mLocation; }$/;"	f	class:Player
+GetByte	arm9\source\saved_inputs.cpp	/^u8 SavedInputPlayer::GetByte()$/;"	f	class:SavedInputPlayer
+GetCurrentBuilding	arm9\source\sim.h	/^	BuildingIndex GetCurrentBuilding() const { return mConstruction.mBuilding; }$/;"	f	class:Player
+GetCurrentResearch	arm9\source\sim.h	/^	Technology GetCurrentResearch() const { return mCurrentResearch; }$/;"	f	class:Player
+GetCurrentSimTick	arm9\source\sim.h	/^		int GetCurrentSimTick() const { return mCurrentTick; }$/;"	f	class:Sim
+GetCurrentValues	arm9\source\sim.cpp	/^void Sim::GetCurrentValues(PlayerId player, F32* food, F32* housing, F32* pop, F32* prod, F32* happy, F32* prodRbonus, F32* prodBbonus, F32* prodUpenalty) const$/;"	f	class:Sim
+GetData	arm9\source\lg\sprite.h	/^			const SpriteData* GetData() const { return mSpriteData; }$/;"	f	class:luvafair::SpriteInstance
+GetDataPointers	arm9\source\lg\texture.cpp	/^static void GetDataPointers(u16 texFormat, const u8* data, const void*& palette, const void*& texture)$/;"	f	namespace:luvafair	file:
+GetDelta	arm9\source\sim.h	/^	const V2& GetDelta() const { return mDelta; }$/;"	f	class:WanderingWorldObject
+GetDescription	arm9\source\scenario.cpp	/^String ScenarioTimedPopulation::GetDescription(const Sim& sim) const$/;"	f	class:ScenarioTimedPopulation
+GetDimensionsFromTexFormat	arm9\source\lg\texture.cpp	/^static void GetDimensionsFromTexFormat(u16 texFormat, u16& width, u16& height, u16& bpp)$/;"	f	namespace:luvafair	file:
+GetGameMode	arm9\source\saved_inputs.cpp	/^GameMode SavedInputPlayer::GetGameMode() const$/;"	f	class:SavedInputPlayer
+GetHappiness	arm9\source\sim.h	/^	luvafair::F32 GetHappiness() const { return mHappiness; }$/;"	f	class:Player
+GetHappinessIcon	arm9\source\main.cpp	/^static u16* GetHappinessIcon(F32 happy)$/;"	f	file:
+GetHavePrerequisitesForTechnology	arm9\source\sim.cpp	/^bool Sim::GetHavePrerequisitesForTechnology(PlayerId player, Technology tech) const$/;"	f	class:Sim
+GetHaveTechnology	arm9\source\sim.cpp	/^bool Sim::GetHaveTechnology(PlayerId player, Technology tech) const$/;"	f	class:Sim
+GetHaveTechnology	arm9\source\sim.h	/^	bool GetHaveTechnology(Technology tech) const { return mTechnologies[tech]; }$/;"	f	class:Player
+GetHeader	arm9\source\lg\memtrack.cpp	/^	static Header* GetHeader(void *p)$/;"	f	namespace:lg	file:
+GetHeight	arm9\source\lg\font.h	/^			int GetHeight() const { return mFontData->height; }$/;"	f	class:luvafair::Font
+GetHeight	arm9\source\lg\sprite.h	/^			int GetHeight() const { return mHeight; }$/;"	f	class:luvafair::SpriteData
+GetId	arm9\source\lg\sprite.h	/^			int GetId() const { return mId; }$/;"	f	class:luvafair::SpriteMatrix
+GetInt	arm9\source\saved_inputs.cpp	/^int SavedInputPlayer::GetInt()$/;"	f	class:SavedInputPlayer
+GetKilledOff	arm9\source\sim.cpp	/^void Sim::GetKilledOff(PlayerId player, bool* food, bool* housing, bool* school) const$/;"	f	class:Sim
+GetMapLocation	arm9\source\map.cpp	/^void Map::GetMapLocation(const V2& scroll, V2 pixel, V2& square)$/;"	f	class:Map
+GetMoney	arm9\source\sim.h	/^	luvafair::F32 GetMoney() const { return mMoney; }$/;"	f	class:Player
+GetMoveBias	arm9\source\sim.h	/^	const V2& GetMoveBias() const { return mBias; }$/;"	f	class:WanderingWorldObject
+GetNextTextureSlot	arm9\source\lg\texture.cpp	/^uint32* GetNextTextureSlot(int size)$/;"	f	namespace:luvafair
+GetPercentageOfBuildingBuilt	arm9\source\sim.cpp	/^luvafair::F32 Sim::GetPercentageOfBuildingBuilt(PlayerId player) const$/;"	f	class:Sim
+GetPercentageOfBuildingBuilt	arm9\source\sim.h	/^	luvafair::F32 GetPercentageOfBuildingBuilt() const { return mConstruction.mPercentage; }$/;"	f	class:Player
+GetPercentageOfResearch	arm9\source\sim.cpp	/^F32 Sim::GetPercentageOfResearch(PlayerId player) const$/;"	f	class:Sim
+GetPopulation	arm9\source\sim.h	/^	int GetPopulation() const { return mPopulation; }$/;"	f	class:Player
+GetPos	arm9\source\touch_smoother.cpp	/^V2 TouchSmoother::GetPos() const$/;"	f	class:TouchSmoother
+GetPosition	arm9\source\lg\sprite.cpp	/^V2 SpriteInstance::GetPosition() const$/;"	f	class:luvafair::SpriteInstance
+GetProduction	arm9\source\sim.h	/^	luvafair::F32 GetProduction() const { return mProduction; }$/;"	f	class:Player
+GetRandSeed	arm9\source\saved_inputs.cpp	/^uint32 SavedInputPlayer::GetRandSeed() const$/;"	f	class:SavedInputPlayer
+GetRandSeed	arm9\source\saved_inputs.h	/^		unsigned int GetRandSeed() const { return mHeader.randSeed; }$/;"	f	class:SavedInputSaver
+GetRect	arm9\source\iconmenu.cpp	/^void IconMenu::GetRect(int& x, int& y, int& w, int& h, int& rows)$/;"	f	class:IconMenu
+GetRemainingResearch	arm9\source\sim.h	/^	luvafair::F32 GetRemainingResearch() const { return mCurrentResearchRequired; }$/;"	f	class:Player
+GetScenario	arm9\source\saved_inputs.cpp	/^int SavedInputPlayer::GetScenario() const$/;"	f	class:SavedInputPlayer
+GetShip	arm9\source\sim.h	/^	WorldObject* GetShip(int ship) const { assert(ship >=0 && ship < mNumShips); return mShips[ship]; }$/;"	f	class:Player
+GetShipHasTarget	arm9\source\sim.h	/^	bool GetShipHasTarget(int ship) const { assert(ship >= 0 && ship < mNumShips); return mShipHasTarget[ship]; }$/;"	f	class:Player
+GetShipTarget	arm9\source\sim.h	/^	const V2& GetShipTarget(int ship) const { assert(ship >= 0 && ship < mNumShips); return mShipTarget[ship]; }$/;"	f	class:Player
+GetSpriteInstance	arm9\source\object_mgr.h	/^		luvafair::SpriteInstance* GetSpriteInstance() const { assert(mSI); return mSI; }$/;"	f	class:WorldObject
+GetTargetMedal	arm9\source\scenario.cpp	/^const char* ScenarioTimedPopulation::GetTargetMedal(const Sim& sim) const$/;"	f	class:ScenarioTimedPopulation
+GetTargetTicks	arm9\source\scenario.cpp	/^int ScenarioTimedPopulation::GetTargetTicks(const Sim& sim) const$/;"	f	class:ScenarioTimedPopulation
+GetTechTreeBox	arm9\source\main.cpp	/^Technology GetTechTreeBox(const V2& location)$/;"	f
+GetWO	arm9\source\sim.h	/^	WorldObject* GetWO() { return mWO; }$/;"	f	class:WanderingWorldObject
+GetWarBoat	arm9\source\sim.h	/^	WorldObject* GetWarBoat() const { return mWarBoat; }$/;"	f	class:Player
+GetWidth	arm9\source\lg\font.cpp	/^int Font::GetWidth(const char* str)$/;"	f	class:luvafair::Font
+GetWidth	arm9\source\lg\sprite.h	/^			int GetWidth() const { return mWidth; }$/;"	f	class:luvafair::SpriteData
+GetWinType	arm9\source\sim.h	/^		int GetWinType() const { return mWinType; }$/;"	f	class:Sim
+GetWinningPlayer	arm9\source\sim.h	/^		int GetWinningPlayer() const { return mWinningPlayer; }$/;"	f	class:Sim
+Getf	arm9\source\lg\rand.cpp	/^luvafair::F32 Rand::Getf()$/;"	f	class:luvafair::Rand
+GoToCreditsMenu	arm9\source\fe.cpp	/^void GoToCreditsMenu(GuiItem* item, Screen*, void *)$/;"	f
+GoToMainMenu	arm9\source\fe.cpp	/^void GoToMainMenu(GuiItem* item, Screen*, void *)$/;"	f
+GoToOptionsMenu	arm9\source\fe.cpp	/^void GoToOptionsMenu(GuiItem* item, Screen*, void *)$/;"	f
+GoToScenarioMenu	arm9\source\fe.cpp	/^void GoToScenarioMenu(GuiItem* item, Screen*, void *)$/;"	f
+GoToSinglePlayerMenu	arm9\source\fe.cpp	/^void GoToSinglePlayerMenu(GuiItem* item, Screen*, void *)$/;"	f
+GuiItem	arm9\source\gui.h	/^class GuiItem$/;"	c
+HaveDisplayed	arm9\source\tips.h	/^	bool HaveDisplayed(TipType tip) { return !mGloballyEnabled || mHaveDisplayed[tip]; }$/;"	f	class:Tips
+HaveSavedGame	arm9\source\saved_inputs.cpp	/^\/*static*\/ bool SavedInputPlayer::HaveSavedGame()$/;"	f	class:SavedInputPlayer
+HaveSavedReplay	arm9\source\saved_inputs.cpp	/^\/*static*\/ bool SavedInputPlayer::HaveSavedReplay()$/;"	f	class:SavedInputPlayer
+Header	arm9\source\lg\memtrack.cpp	/^	struct Header$/;"	s	namespace:lg	file:
+Held	arm9\source\touch_smoother.cpp	/^bool TouchSmoother::Held() const$/;"	f	class:TouchSmoother
+Hide	arm9\source\object_mgr.h	/^		void Hide() { mSI->SetPosition(V2(SCREEN_WIDTH, SCREEN_HEIGHT)); mIsHidden = true; }$/;"	f	class:WorldObject
+Hide	arm9\source\progress_build.cpp	/^void ProgressBuild::Hide()$/;"	f	class:ProgressBuild
+Hide	arm9\source\sim.cpp	/^void WanderingWorldObject::Hide()$/;"	f	class:WanderingWorldObject
+INCLUDDED_buildings_H	arm9\source\buildings.h	2;"	d
+INCLUDED_SRast_H	arm9\source\lg\srast.h	13;"	d
+INCLUDED_edge_arrows_H	arm9\source\edge_arrows.h	2;"	d
+INCLUDED_iconmenu_H	arm9\source\iconmenu.h	2;"	d
+INCLUDED_map_H	arm9\source\map.h	2;"	d
+INCLUDED_memory_config_H	arm9\source\memory_config.h	2;"	d
+INCLUDED_object_mgr_H	arm9\source\object_mgr.h	2;"	d
+INCLUDED_render_H	arm9\source\render.h	2;"	d
+INCLUDED_sim_H	arm9\source\sim.h	2;"	d
+IconMenu	arm9\source\iconmenu.cpp	/^IconMenu::IconMenu(Font& font, int columns, const u8* mainpal, const u8* tileData, int firstBuildingIndex)$/;"	f	class:IconMenu
+IconMenu	arm9\source\iconmenu.h	/^class IconMenu$/;"	c
+Image	arm9\source\gui.h	/^	Image(u16* image, int x, int y, int w, int h)$/;"	f	class:Image
+Image	arm9\source\gui.h	/^class Image : public GuiItem$/;"	c
+Init	arm9\source\audio.cpp	/^void Audio::Init()$/;"	f	class:Audio
+Init	arm9\source\lg\sprite.cpp	/^void SpriteHardware::Init()$/;"	f	class:luvafair::SpriteHardware
+Init	arm9\source\sim.cpp	/^void Player::Init(int index, ObjectMgr& om, Render& render)$/;"	f	class:Player
+Int	arm9\source\lg\f32.h	/^		inline int Int() const$/;"	f	class:luvafair::F32
+InternalFormat	arm9\source\lg\string.cpp	/^	String InternalFormat(const char* fmt, int num, ...)$/;"	f	namespace:luvafair
+IsAtWar	arm9\source\sim.cpp	/^bool Player::IsAtWar() const$/;"	f	class:Player
+IsAvailable	arm9\source\sim.cpp	/^bool Player::IsAvailable(BuildingIndex bi) const$/;"	f	class:Player
+IsDisplaying	arm9\source\tips.h	/^	bool IsDisplaying() const { return mDisplaying != Tip_Invalid; }$/;"	f	class:Tips
+IsHidden	arm9\source\object_mgr.h	/^		bool IsHidden() const { return mIsHidden; }$/;"	f	class:WorldObject
+IsInMap	arm9\source\sim.cpp	/^bool Sim::IsInMap(const V2& pos) const$/;"	f	class:Sim
+IsNull	arm9\source\lg\scoped_array.h	/^			bool IsNull() const { return mPtr == 0; }$/;"	f	class:luvafair::ScopedArray
+IsNull	arm9\source\lg\scoped_ptr.h	/^		bool IsNull() const { return mPtr == 0; }$/;"	f	class:luvafair::ScopedPtr
+IsOffMap	arm9\source\sim.cpp	/^bool Sim::IsOffMap(WorldObject* wo) const$/;"	f	class:Sim
+IsVisible	arm9\source\sim.h	/^	bool IsVisible() const { return mVisible; }$/;"	f	class:WanderingWorldObject
+LG_ART_SQUARE_SIZE	arm9\source\memory_config.h	5;"	d
+LG_BACKGROUND_TILES_SIZE	arm9\source\memory_config.h	4;"	d
+LG_FROM_SIDE	arm9\source\iconmenu.cpp	10;"	d	file:
+LG_ICONSIZE	arm9\source\iconmenu.cpp	8;"	d	file:
+LG_INCLUDED_audio_H	arm9\source\audio.h	2;"	d
+LG_INCLUDED_core_scoped_array_H	arm9\source\lg\scoped_array.h	2;"	d
+LG_INCLUDED_cpu_player_H	arm9\source\cpu_player.h	2;"	d
+LG_INCLUDED_fe_H	arm9\source\fe.h	2;"	d
+LG_INCLUDED_gui_H	arm9\source\gui.h	2;"	d
+LG_INCLUDED_lg_3d_H	arm9\source\lg\3d.h	2;"	d
+LG_INCLUDED_lg_draw_H	arm9\source\lg\draw.h	2;"	d
+LG_INCLUDED_lg_f32_H	arm9\source\lg\f32.h	2;"	d
+LG_INCLUDED_lg_font_H	arm9\source\lg\font.h	2;"	d
+LG_INCLUDED_lg_lg_H	arm9\source\lg\lg.h	2;"	d
+LG_INCLUDED_lg_memtrack_H	arm9\source\lg\memtrack.h	2;"	d
+LG_INCLUDED_lg_rand_H	arm9\source\lg\rand.h	2;"	d
+LG_INCLUDED_lg_sprite_H	arm9\source\lg\sprite.h	2;"	d
+LG_INCLUDED_lg_string_H	arm9\source\lg\string.h	2;"	d
+LG_INCLUDED_lg_swap_H	arm9\source\lg\swap.h	2;"	d
+LG_INCLUDED_lg_texture_H	arm9\source\lg\texture.h	2;"	d
+LG_INCLUDED_lg_v2_H	arm9\source\lg\v2.h	2;"	d
+LG_INCLUDED_linegraph_H	arm9\source\linegraph.h	2;"	d
+LG_INCLUDED_message_H	arm9\source\message.h	2;"	d
+LG_INCLUDED_playerid_H	arm9\source\playerid.h	2;"	d
+LG_INCLUDED_progress_build_H	arm9\source\progress_build.h	2;"	d
+LG_INCLUDED_saved_inputs_H	arm9\source\saved_inputs.h	2;"	d
+LG_INCLUDED_scenario_H	arm9\source\scenario.h	2;"	d
+LG_INCLUDED_scoped_ptr_H	arm9\source\lg\scoped_ptr.h	2;"	d
+LG_INCLUDED_sound_effects_H	arm9\source\sound_effects.h	2;"	d
+LG_INCLUDED_techtree_H	arm9\source\techtree.h	2;"	d
+LG_INCLUDED_tips_H	arm9\source\tips.h	2;"	d
+LG_INCLUDED_touch_smoother_H	arm9\source\touch_smoother.h	2;"	d
+LG_INCLUDED_util_H	arm9\source\util.h	2;"	d
+LG_LOGO_HEIGHT	arm9\source\fe.cpp	166;"	d	file:
+LG_LOGO_WIDTH	arm9\source\fe.cpp	165;"	d	file:
+LG_MAP_OFFSET	arm9\source\memory_config.h	8;"	d
+LG_MAX_RANDF	arm9\source\lg\rand.cpp	55;"	d	file:
+LG_MEMTRACK_NEW	arm9\source\lg\memtrack.h	41;"	d
+LG_OVERLAY_LAYER_BASE	arm9\source\memory_config.h	9;"	d
+LG_OVERLAY_LAYER_BASE_SUB	arm9\source\memory_config.h	10;"	d
+LG_PLATFORM	arm9\source\lg\lg.h	4;"	d
+LG_RAND_HI_BIT	arm9\source\lg\rand.h	14;"	d
+LG_RAND_LO_BIT	arm9\source\lg\rand.h	15;"	d
+LG_RAND_LO_BITS	arm9\source\lg\rand.h	16;"	d
+LG_RAND_MAGIC	arm9\source\lg\rand.h	13;"	d
+LG_RAND_MIX_BITS	arm9\source\lg\rand.h	17;"	d
+LG_RAND_PERIOD	arm9\source\lg\rand.h	12;"	d
+LG_RAND_STATE_VECTOR_LENGTH	arm9\source\lg\rand.h	11;"	d
+LG_SPACING	arm9\source\iconmenu.cpp	9;"	d	file:
+LG_TECHTREE_BITMAP_HEIGHT	arm9\source\techtree.h	52;"	d
+LG_TECHTREE_BITMAP_WIDTH	arm9\source\techtree.h	51;"	d
+LG_TECHTREE_COLOUR_AVAILABLE_TO_RESEARCH	arm9\source\main.cpp	101;"	d	file:
+LG_TECHTREE_COLOUR_BLACK	arm9\source\main.cpp	103;"	d	file:
+LG_TECHTREE_COLOUR_RESEARCHED	arm9\source\main.cpp	100;"	d	file:
+LG_TECHTREE_COLOUR_RESEARCHING	arm9\source\main.cpp	102;"	d	file:
+LG_TECHTREE_COLOUR_UNAVAILABLE	arm9\source\main.cpp	99;"	d	file:
+LG_TILES_OFFSET	arm9\source\memory_config.h	7;"	d
+LG_TILES_PER_SQUARE	arm9\source\memory_config.h	6;"	d
+Label	arm9\source\gui.h	/^	Label(const char* text, int x, int y, u16 colour, luvafair::TextAlignment ta) : mText(text), x(x), y(y), mColour(colour), mTA(ta) {}$/;"	f	class:Label
+Label	arm9\source\gui.h	/^class Label : public GuiItem$/;"	c
+Length	arm9\source\lg\string.h	/^			int Length() const { return mLength; }$/;"	f	class:luvafair::String
+LengthSq	arm9\source\lg\v2.h	/^	luvafair::F32 LengthSq() const$/;"	f	class:V2NoCtor
+LinearToTiled	arm9\source\progress_build.cpp	/^static int LinearToTiled(int x, int y, int stride)$/;"	f	file:
+LoadOrders	arm7\source\ModFile.c	/^static void LoadOrders(MODFILE_LOAD_VARS *vars)$/;"	f	file:
+LoadPatterns	arm7\source\ModFile.c	/^static void LoadPatterns(MODFILE_LOAD_VARS *vars)$/;"	f	file:
+LoadSampleDatas	arm7\source\ModFile.c	/^static void LoadSampleDatas(MODFILE_LOAD_VARS *vars)$/;"	f	file:
+LoadSamples	arm7\source\ModFile.c	/^static void LoadSamples(MODFILE_LOAD_VARS *vars)$/;"	f	file:
+MAX_ICONS	arm9\source\iconmenu.h	/^	enum { MAX_ICONS = 16 };$/;"	e	enum:IconMenu::<anonymous>
+MAX_NUM_ANIMS	arm9\source\lg\sprite.h	/^			enum { MAX_NUM_ANIMS = 4 }; \/\/ todo; lame-o$/;"	e	enum:luvafair::SpriteData::<anonymous>
+MAX_SAVE_SIZE	arm9\source\saved_inputs.h	/^		MAX_SAVE_SIZE = 65536 - sizeof(SavedInputHeader)$/;"	e	enum:SavedInputSaver::<anonymous>
+MAX_SHIPS	arm9\source\sim.h	/^	enum { MAX_SHIPS = 16 };$/;"	e	enum:Player::<anonymous>
+MAX_SND_COMMANDS	SoundCommon.h	37;"	d
+MEMPOOL_SIZE	arm9\source\Sound9.cpp	14;"	d	file:
+MOD	arm7\source\Sound7.h	/^} MOD;$/;"	t
+MODFILE_H	arm7\source\ModFile.h	6;"	d
+MODFILE_LOAD_VARS	arm7\source\ModFile.c	/^} MODFILE_LOAD_VARS;$/;"	t	file:
+MODFXArpeggioMid	arm7\source\Sound7.c	/^static void MODFXArpeggioMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXArpeggioRow	arm7\source\Sound7.c	/^static void MODFXArpeggioRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXBreakToRow	arm7\source\Sound7.c	/^static void MODFXBreakToRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXJumpToOrder	arm7\source\Sound7.c	/^static void MODFXJumpToOrder(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXPan	arm7\source\Sound7.c	/^static void MODFXPan(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXPortaDownMid	arm7\source\Sound7.c	/^static void MODFXPortaDownMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXPortaRow	arm7\source\Sound7.c	/^static void MODFXPortaRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXPortaUpMid	arm7\source\Sound7.c	/^static void MODFXPortaUpMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXSampleOffset	arm7\source\Sound7.c	/^static void MODFXSampleOffset(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXSetVol	arm7\source\Sound7.c	/^static void MODFXSetVol(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXSpecialMid	arm7\source\Sound7.c	/^static void MODFXSpecialMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXSpecialRow	arm7\source\Sound7.c	/^static void MODFXSpecialRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXSpeed	arm7\source\Sound7.c	/^static void MODFXSpeed(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXTonePortaMid	arm7\source\Sound7.c	/^static void MODFXTonePortaMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXTonePortaRow	arm7\source\Sound7.c	/^static void MODFXTonePortaRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXTremoloMid	arm7\source\Sound7.c	/^static void MODFXTremoloMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXTremoloRow	arm7\source\Sound7.c	/^static void MODFXTremoloRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXVSldTPortaMid	arm7\source\Sound7.c	/^static void MODFXVSldTPortaMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXVSldTPortaRow	arm7\source\Sound7.c	/^static void MODFXVSldTPortaRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXVSldVibratoMid	arm7\source\Sound7.c	/^static void MODFXVSldVibratoMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXVSldVibratoRow	arm7\source\Sound7.c	/^static void MODFXVSldVibratoRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXVibratoMid	arm7\source\Sound7.c	/^static void MODFXVibratoMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXVibratoRow	arm7\source\Sound7.c	/^static void MODFXVibratoRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXVolslideMid	arm7\source\Sound7.c	/^static void MODFXVolslideMid(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODFXVolslideRow	arm7\source\Sound7.c	/^static void MODFXVolslideRow(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODGetNotePeriod	arm7\source\Sound7.c	/^static u32 MODGetNotePeriod(u32 note, u32 finetune)$/;"	f	file:
+MODHandleUpdateFlags	arm7\source\Sound7.c	/^static void MODHandleUpdateFlags(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODInitVibrato	arm7\source\Sound7.c	/^static void MODInitVibrato(MOD_UPDATE_VARS *vars, MOD_VIBRATO_PARAMS *vibrato)$/;"	f	file:
+MODPitchSlide	arm7\source\Sound7.c	/^static s32 MODPitchSlide(s32 period, s32 slide)$/;"	f	file:
+MODPlay	arm7\source\Sound7.c	/^static void MODPlay(const void *modFile)$/;"	f	file:
+MODPlayNote	arm7\source\Sound7.c	/^static void MODPlayNote(MOD_UPDATE_VARS *vars)$/;"	f	file:
+MODProcessRow	arm7\source\Sound7.c	/^static void MODProcessRow()$/;"	f	file:
+MODSeek	arm7\source\Sound7.c	/^static BOOL MODSeek(u32 order, u32 row)$/;"	f	file:
+MODSetTempo	arm7\source\Sound7.c	/^static void MODSetTempo(u32 tempo)$/;"	f	file:
+MODStartTimer	arm7\source\Sound7.c	/^static void MODStartTimer()$/;"	f	file:
+MODStop	arm7\source\Sound7.c	/^static void MODStop()$/;"	f	file:
+MODStopTimer	arm7\source\Sound7.c	/^static void MODStopTimer()$/;"	f	file:
+MODUpdate	arm7\source\Sound7.c	/^void MODUpdate()$/;"	f
+MODUpdateEffects	arm7\source\Sound7.c	/^static void MODUpdateEffects()$/;"	f	file:
+MODUpdateVibrato	arm7\source\Sound7.c	/^static s8 MODUpdateVibrato(MOD_VIBRATO_PARAMS *vibrato)$/;"	f	file:
+MODVolumeSlide	arm7\source\Sound7.c	/^static u32 MODVolumeSlide(u32 volume, s32 slide)$/;"	f	file:
+MOD_CALLBACK	SoundCommon.h	/^typedef void (*MOD_CALLBACK)(u32 param, BOOL bRowTick);$/;"	t
+MOD_CHANNEL	arm7\source\Sound7.h	/^} MOD_CHANNEL;$/;"	t
+MOD_DEFAULT_SPEED	arm7\source\Sound7.c	38;"	d	file:
+MOD_DEFAULT_TEMPO	arm7\source\Sound7.c	39;"	d	file:
+MOD_EFFECT_TABLE	arm7\source\Sound7.c	/^} MOD_EFFECT_TABLE;$/;"	t	file:
+MOD_EFFECT_TABLE_MID	arm7\source\Sound7.c	/^	MOD_EFFECT_TABLE_MID,$/;"	e	enum:_MOD_EFFECT_TABLE	file:
+MOD_EFFECT_TABLE_NUM	arm7\source\Sound7.c	/^	MOD_EFFECT_TABLE_NUM,$/;"	e	enum:_MOD_EFFECT_TABLE	file:
+MOD_EFFECT_TABLE_ROW	arm7\source\Sound7.c	/^	MOD_EFFECT_TABLE_ROW,$/;"	e	enum:_MOD_EFFECT_TABLE	file:
+MOD_MAX_NOTE	arm7\source\Sound7.c	42;"	d	file:
+MOD_NO_NOTE	arm7\source\ModFile.c	22;"	d	file:
+MOD_NO_NOTE	arm7\source\Sound7.c	34;"	d	file:
+MOD_NO_SAMPLE	arm7\source\ModFile.c	24;"	d	file:
+MOD_NO_SAMPLE	arm7\source\Sound7.c	36;"	d	file:
+MOD_PATTERN_ROWS	arm7\source\Sound7.c	40;"	d	file:
+MOD_PERIOD_MAX	arm7\source\Sound7.c	43;"	d	file:
+MOD_PERIOD_MIN	arm7\source\Sound7.c	44;"	d	file:
+MOD_STATE	arm7\source\Sound7.h	/^} MOD_STATE;$/;"	t
+MOD_STATE_PAUSE	arm7\source\Sound7.h	/^	MOD_STATE_PAUSE,$/;"	e	enum:_MOD_STATE
+MOD_STATE_PLAY	arm7\source\Sound7.h	/^	MOD_STATE_PLAY,$/;"	e	enum:_MOD_STATE
+MOD_STATE_STOP	arm7\source\Sound7.h	/^	MOD_STATE_STOP,$/;"	e	enum:_MOD_STATE
+MOD_UPDATE_FLAGS	arm7\source\Sound7.c	/^} MOD_UPDATE_FLAGS;$/;"	t	file:
+MOD_UPDATE_VARS	arm7\source\Sound7.c	/^} MOD_UPDATE_VARS;$/;"	t	file:
+MOD_UPD_FLG_PLAY_NOTE	arm7\source\Sound7.c	/^	MOD_UPD_FLG_PLAY_NOTE	= BIT(2),	\/\/ Used on row-ticks to play or skip note$/;"	e	enum:_MOD_UPDATE_FLAGS	file:
+MOD_UPD_FLG_SET_FREQ	arm7\source\Sound7.c	/^	MOD_UPD_FLG_SET_FREQ	= BIT(1),	\/\/ Row or non-row, recalculates mix chn increment$/;"	e	enum:_MOD_UPDATE_FLAGS	file:
+MOD_UPD_FLG_SET_VOL	arm7\source\Sound7.c	/^	MOD_UPD_FLG_SET_VOL		= BIT(0),	\/\/ Row or non-row, recalculates mix chn volume$/;"	e	enum:_MOD_UPDATE_FLAGS	file:
+MOD_VIBRATO_PARAMS	arm7\source\Sound7.h	/^} MOD_VIBRATO_PARAMS;$/;"	t
+MOD_WAVEFORM	arm7\source\Sound7.c	/^} MOD_WAVEFORM;$/;"	t	file:
+MOD_WAVEFORM_NUM	arm7\source\Sound7.c	/^	MOD_WAVEFORM_NUM,$/;"	e	enum:_MOD_WAVEFORM	file:
+MOD_WAVEFORM_RAMP	arm7\source\Sound7.c	/^	MOD_WAVEFORM_RAMP,$/;"	e	enum:_MOD_WAVEFORM	file:
+MOD_WAVEFORM_RANDOM	arm7\source\Sound7.c	/^	MOD_WAVEFORM_RANDOM,$/;"	e	enum:_MOD_WAVEFORM	file:
+MOD_WAVEFORM_SINE	arm7\source\Sound7.c	/^	MOD_WAVEFORM_SINE,$/;"	e	enum:_MOD_WAVEFORM	file:
+MOD_WAVEFORM_SQUARE	arm7\source\Sound7.c	/^	MOD_WAVEFORM_SQUARE,$/;"	e	enum:_MOD_WAVEFORM	file:
+MainHardwareInit	arm9\source\main.cpp	/^void MainHardwareInit()$/;"	f
+Map	arm9\source\map.cpp	/^Map::Map(const u8* palette, const u8* mapData, const u8* tileData, u32 tileDataSize) : mMapData(mapData)$/;"	f	class:Map
+Map	arm9\source\map.h	/^class Map$/;"	c
+MapDeltaToBoatAnimation	arm9\source\sim.cpp	/^static int MapDeltaToBoatAnimation(const V2& delta)$/;"	f	file:
+MapFlags	arm9\source\map.h	/^		enum MapFlags$/;"	g	class:Map
+MapHW	arm9\source\map.h	/^	u16* MapHW() const { return (u16*)SCREEN_BASE_BLOCK(LG_MAP_OFFSET); }$/;"	f	class:Map
+MapTileData	arm9\source\map.h	/^	const u16* MapTileData() const { return (const u16*)&mMapData[6 + SquaresWide() * SquaresHigh()]; }$/;"	f	class:Map
+Max	arm9\source\lg\lg.h	/^template <class T> T Max(const T& a, const T& b)$/;"	f
+MaxNumVerticesInPolygon	arm9\source\lg\srast.h	/^		MaxNumVerticesInPolygon = 20$/;"	e	enum:SRastBuffer::<anonymous>
+MemStamp	arm9\source\lg\memtrack.h	/^		MemStamp(char const *file, int line) : file(file), line(line) {}$/;"	f	struct:lg::MemStamp
+MemStamp	arm9\source\lg\memtrack.h	/^    struct MemStamp$/;"	s	namespace:lg
+MessageDisplay	arm9\source\message.cpp	/^MessageDisplay::MessageDisplay() : mCurPos(-1), mTimer(0)$/;"	f	class:MessageDisplay
+MessageDisplay	arm9\source\message.h	/^class MessageDisplay$/;"	c
+MessageType	arm9\source\message.h	/^enum MessageType$/;"	g
+MessageType_AtWarNoPopulation	arm9\source\message.h	/^	MessageType_AtWarNoPopulation,$/;"	e	enum:MessageType
+MessageType_Count	arm9\source\message.h	/^	MessageType_Count$/;"	e	enum:MessageType
+MessageType_MissileAttacked	arm9\source\message.h	/^	MessageType_MissileAttacked,$/;"	e	enum:MessageType
+MessageType_MissileAttacking	arm9\source\message.h	/^	MessageType_MissileAttacking,$/;"	e	enum:MessageType
+MessageType_RequireChurch	arm9\source\message.h	/^	MessageType_RequireChurch,$/;"	e	enum:MessageType
+MessageType_RequireHospital	arm9\source\message.h	/^	MessageType_RequireHospital,$/;"	e	enum:MessageType
+MessageType_RequireSchool	arm9\source\message.h	/^	MessageType_RequireSchool,$/;"	e	enum:MessageType
+MessageType_ResearchComplete	arm9\source\message.h	/^	MessageType_ResearchComplete,$/;"	e	enum:MessageType
+MessageType_ResearchResult	arm9\source\message.h	/^	MessageType_ResearchResult,$/;"	e	enum:MessageType
+MessageType_UnhappyFood	arm9\source\message.h	/^	MessageType_UnhappyFood,$/;"	e	enum:MessageType
+MessageType_UnhappyHousing	arm9\source\message.h	/^	MessageType_UnhappyHousing,$/;"	e	enum:MessageType
+Min	arm9\source\lg\lg.h	/^template <class T> T Min(const T& a, const T& b)$/;"	f
+ModCallback	arm9\source\audio.cpp	/^void ModCallback(u32 rowParam, BOOL rowTick)$/;"	f
+ModFileLoad	arm7\source\ModFile.c	/^u32 ModFileLoad(const void *modFile, MOD *dest, void *memPool, u32 memPoolSize)$/;"	f
+MoveShips	arm9\source\sim.cpp	/^void Sim::MoveShips()$/;"	f	class:Sim
+MoveThroughScenarios	arm9\source\fe.cpp	/^void MoveThroughScenarios(GuiItem* item, Screen* scr, void* p)$/;"	f
+MoveWarBoats	arm9\source\sim.cpp	/^void Sim::MoveWarBoats()$/;"	f	class:Sim
+MusicIsEnabled	arm9\source\audio.cpp	/^bool Audio::MusicIsEnabled() { return mMusic; }$/;"	f	class:Audio
+NULL	SoundCommon.h	19;"	d
+NameOf	arm9\source\sim.cpp	/^const char *NameOf(BuildingIndex i)$/;"	f
+NameOfShort	arm9\source\sim.cpp	/^const char *NameOfShort(BuildingIndex i)$/;"	f
+Normalize	arm9\source\lg\v2.h	/^	V2NoCtor Normalize() const$/;"	f	class:V2NoCtor
+NotTooExpensive	arm9\source\cpu_player.cpp	/^bool CpuPlayer::NotTooExpensive(BuildingIndex building) const$/;"	f	class:CpuPlayer
+NoteBinarySearch	arm7\source\ModFile.c	/^u32 NoteBinarySearch(u32 period, u32 min, u32 max)$/;"	f
+NumBuildings	arm9\source\sim.cpp	/^int Buildings::NumBuildings(int player) const$/;"	f	class:Buildings
+NumBuildings	arm9\source\sim.h	/^		int NumBuildings(PlayerId player) const { return mBuildings.NumBuildings(player); }$/;"	f	class:Sim
+NumShips	arm9\source\sim.h	/^	int NumShips() const { return mNumShips; }$/;"	f	class:Player
+NumWatersAdjacent	arm9\source\sim.cpp	/^int Sim::NumWatersAdjacent(const V2& pos)$/;"	f	class:Sim
+ObjectMgr	arm9\source\object_mgr.cpp	/^ObjectMgr::ObjectMgr() : mNumObjects(0)$/;"	f	class:ObjectMgr
+ObjectMgr	arm9\source\object_mgr.h	/^class ObjectMgr$/;"	c
+OverlayOwner	arm9\source\main.cpp	/^enum OverlayOwner$/;"	g	file:
+OverlayOwner_BuildMenu	arm9\source\main.cpp	/^	OverlayOwner_BuildMenu,$/;"	e	enum:OverlayOwner	file:
+OverlayOwner_PauseMenu	arm9\source\main.cpp	/^	OverlayOwner_PauseMenu,$/;"	e	enum:OverlayOwner	file:
+OverlayOwner_TechTree	arm9\source\main.cpp	/^	OverlayOwner_TechTree,$/;"	e	enum:OverlayOwner	file:
+OverlayOwner_Tips	arm9\source\main.cpp	/^	OverlayOwner_Tips,$/;"	e	enum:OverlayOwner	file:
+PeekInt	arm9\source\saved_inputs.cpp	/^int SavedInputPlayer::PeekInt()$/;"	f	class:SavedInputPlayer
+Play	arm9\source\sound_effects.cpp	/^void Play(SoundEffect effect)$/;"	f
+Play	arm9\source\sound_effects.cpp	/^void Play(SoundEffect effect, PlayerId id)$/;"	f
+Player	arm9\source\sim.cpp	/^Player::Player()$/;"	f	class:Player
+Player	arm9\source\sim.h	/^class Player$/;"	c
+PlayerId	arm9\source\playerid.h	/^	PlayerId(const PlayerId& pi) : mId(pi.mId) {}$/;"	f	struct:PlayerId
+PlayerId	arm9\source\playerid.h	/^	explicit PlayerId(int id) : mId(id) {}$/;"	f	struct:PlayerId
+PlayerId	arm9\source\playerid.h	/^struct PlayerId$/;"	s
+PolygonEdge	arm9\source\lg\srast.h	/^		PolygonEdge() : top(-1), bottom(-1), prev(0), next(0) {}$/;"	f	struct:SRastBuffer::PolygonEdge
+PolygonEdge	arm9\source\lg\srast.h	/^		PolygonEdge(const int* i1, const int* i2)$/;"	f	struct:SRastBuffer::PolygonEdge
+PolygonEdge	arm9\source\lg\srast.h	/^	struct PolygonEdge$/;"	s	class:SRastBuffer
+PolygonFixedShift	arm9\source\lg\srast.h	/^		PolygonFixedShift = 18$/;"	e	enum:SRastBuffer::<anonymous>
+PopFactor	arm9\source\sim.cpp	/^static int PopFactor(int curPop)$/;"	f	file:
+Prec	arm9\source\lg\string.cpp	/^	String Prec(float t, const char* spec)$/;"	f	namespace:luvafair
+Pressed	arm9\source\touch_smoother.cpp	/^bool TouchSmoother::Pressed() const$/;"	f	class:TouchSmoother
+PressedSolid	arm9\source\touch_smoother.cpp	/^bool TouchSmoother::PressedSolid() const$/;"	f	class:TouchSmoother
+ProgressBuild	arm9\source\progress_build.cpp	/^ProgressBuild::ProgressBuild(ObjectMgr& objectMgr)$/;"	f	class:ProgressBuild
+ProgressBuild	arm9\source\progress_build.h	/^class ProgressBuild$/;"	c
+Purge	arm9\source\lg\sprite.cpp	/^void SpriteHardware::Purge()$/;"	f	class:luvafair::SpriteHardware
+Rand	arm9\source\lg\rand.h	/^		Rand() : mRandLeft(-1) {}$/;"	f	class:luvafair::Rand
+Rand	arm9\source\lg\rand.h	/^	class Rand$/;"	c	namespace:luvafair
+RefreshMenu	arm9\source\main.cpp	/^void RefreshMenu(u16* bg, Sim& sim, IconMenu& menu, PlayerId localPlayer)$/;"	f
+Reimburse	arm9\source\sim.h	/^	void Reimburse(luvafair::F32 money) { mMoney += money; }$/;"	f	class:Player
+Released	arm9\source\touch_smoother.cpp	/^bool TouchSmoother::Released() const$/;"	f	class:TouchSmoother
+ReloadMersenneTwister	arm9\source\lg\rand.cpp	/^unsigned int Rand::ReloadMersenneTwister()$/;"	f	class:luvafair::Rand
+Render	arm9\source\render.cpp	/^Render::Render()$/;"	f	class:Render
+Render	arm9\source\render.h	/^class Render$/;"	c
+Render	arm9\source\scenario.cpp	/^void ScenarioTimedPopulation::Render(u16* bg, luvafair::Font& font, const Sim& sim) const$/;"	f	class:ScenarioTimedPopulation
+Research	arm9\source\sim.cpp	/^void Player::Research()$/;"	f	class:Player
+ResearchSomething	arm9\source\cpu_player.cpp	/^void CpuPlayer::ResearchSomething()$/;"	f	class:CpuPlayer
+Reset	arm9\source\lg\scoped_array.h	/^			void Reset(T* p = 0)$/;"	f	class:luvafair::ScopedArray
+Reset	arm9\source\lg\scoped_ptr.h	/^		void Reset(T* ptr = 0)$/;"	f	class:luvafair::ScopedPtr
+Reset	arm9\source\lg\sprite.cpp	/^void SpriteHardware::Reset()$/;"	f	class:luvafair::SpriteHardware
+SAMPLE_HEADER	arm7\source\Sound7.h	/^} SAMPLE_HEADER;$/;"	t
+SMP_LOOPLENGTH_THRESHOLD	arm7\source\ModFile.c	18;"	d	file:
+SND_CHN_INVALID	arm7\source\Sound7.h	25;"	d
+SND_CMD_NUM	SoundCommon.h	/^	SND_CMD_NUM,$/;"	e	enum:_SND_COMMAND_TYPE
+SND_CMD_PAUSESONG	SoundCommon.h	/^	SND_CMD_PAUSESONG,		\/\/ Param[0]: 1=pause, 0=unpause$/;"	e	enum:_SND_COMMAND_TYPE
+SND_CMD_PLAYSAMPLE	SoundCommon.h	/^	SND_CMD_PLAYSAMPLE,		\/\/ Param32: data, Param[0] = channel$/;"	e	enum:_SND_COMMAND_TYPE
+SND_CMD_PLAYSONG	SoundCommon.h	/^	SND_CMD_PLAYSONG,		\/\/ Param32: Pointer to song file (standard .mod)$/;"	e	enum:_SND_COMMAND_TYPE
+SND_CMD_SETCALLBACK	SoundCommon.h	/^	SND_CMD_SETCALLBACK,	\/\/ Param32: MOD_CALLBACK function pointer$/;"	e	enum:_SND_COMMAND_TYPE
+SND_CMD_SETMEMPOOL	SoundCommon.h	/^	SND_CMD_SETMEMPOOL,		\/\/ Param32: Address, Param[0 to 2]: Size$/;"	e	enum:_SND_COMMAND_TYPE
+SND_CMD_SETVOLUME	SoundCommon.h	/^	SND_CMD_SETVOLUME,		\/\/ Param32: volume$/;"	e	enum:_SND_COMMAND_TYPE
+SND_CMD_STOPSONG	SoundCommon.h	/^	SND_CMD_STOPSONG,		\/\/ No params$/;"	e	enum:_SND_COMMAND_TYPE
+SND_COMMAND	SoundCommon.h	/^} SND_COMMAND;$/;"	t
+SND_COMMAND_TYPE	SoundCommon.h	/^} SND_COMMAND_TYPE;$/;"	t
+SND_CONTROL	SoundCommon.h	/^} SND_CONTROL;$/;"	t
+SND_MAX_CHANNELS	arm7\source\Sound7.h	24;"	d
+SOUND7_H	arm7\source\Sound7.h	11;"	d
+SOUND9_H	arm9\source\Sound9.h	6;"	d
+SOUNDCOMMON_H	SoundCommon.h	6;"	d
+SOUND_CHANNEL	arm7\source\Sound7.h	/^} SOUND_CHANNEL;$/;"	t
+SOUND_VARS	arm7\source\Sound7.h	/^} SOUND_VARS;$/;"	t
+SRastBuffer	arm9\source\lg\srast.h	/^	SRastBuffer(T* data, int width, int pitch, int height)$/;"	f	class:SRastBuffer
+SRastBuffer	arm9\source\lg\srast.h	/^template <class T> class SRastBuffer$/;"	c
+SWITCH_TO_USER_STACK	arm7\source\Sound7.c	29;"	d	file:
+Save	arm9\source\saved_inputs.h	/^	void Save(u8 b)$/;"	f	class:SavedInputSaver
+SaveComplete	arm9\source\saved_inputs.cpp	/^void SavedInputSaver::SaveComplete()$/;"	f	class:SavedInputSaver
+SaveCurrentTick	arm9\source\saved_inputs.cpp	/^void SavedInputSaver::SaveCurrentTick(int tick, int command)$/;"	f	class:SavedInputSaver
+SaveGameToSRAMAndQuit	arm9\source\main.cpp	/^void SaveGameToSRAMAndQuit(GuiItem* gi, Screen* scr, void* p)$/;"	f
+SaveReplayToSRAMAndQuit	arm9\source\main.cpp	/^void SaveReplayToSRAMAndQuit(GuiItem* gi, Screen* scr, void* p)$/;"	f
+SaveStartBuilding	arm9\source\saved_inputs.cpp	/^void SavedInputSaver::SaveStartBuilding(int player, BuildingIndex buildingIndex, const V2& location)$/;"	f	class:SavedInputSaver
+SaveStartResearch	arm9\source\saved_inputs.cpp	/^void SavedInputSaver::SaveStartResearch(int player, Technology tech)$/;"	f	class:SavedInputSaver
+SaveToSRAM	arm9\source\main.cpp	/^void SaveToSRAM(GuiItem* gi, Screen* scr, void* p, bool replay)$/;"	f
+SavedInputCommand	arm9\source\saved_inputs.h	/^enum SavedInputCommand$/;"	g
+SavedInputHeader	arm9\source\saved_inputs.h	/^struct SavedInputHeader$/;"	s
+SavedInputPlayer	arm9\source\saved_inputs.cpp	/^SavedInputPlayer::SavedInputPlayer() : mPos(0)$/;"	f	class:SavedInputPlayer
+SavedInputPlayer	arm9\source\saved_inputs.h	/^class SavedInputPlayer$/;"	c
+SavedInputSaver	arm9\source\saved_inputs.cpp	/^SavedInputSaver::SavedInputSaver(GameMode mode, int scenario) : mSim(0), mData(new u8[MAX_SAVE_SIZE]), mPos(0)$/;"	f	class:SavedInputSaver
+SavedInputSaver	arm9\source\saved_inputs.h	/^class SavedInputSaver : public SimSerializer$/;"	c
+SavedInput_Complete	arm9\source\saved_inputs.h	/^	SavedInput_Complete$/;"	e	enum:SavedInputCommand
+SavedInput_StartBuilding	arm9\source\saved_inputs.h	/^	SavedInput_StartBuilding,$/;"	e	enum:SavedInputCommand
+SavedInput_StartResearch	arm9\source\saved_inputs.h	/^	SavedInput_StartResearch,$/;"	e	enum:SavedInputCommand
+SavedInputsGameMagic	arm9\source\saved_inputs.cpp	/^static char SavedInputsGameMagic[4] = { 'T', 'I', 'G', '2' };$/;"	v	file:
+SavedInputsReplayMagic	arm9\source\saved_inputs.cpp	/^static char SavedInputsReplayMagic[4] = { 'T', 'I', 'S', '2' };$/;"	v	file:
+Scenario	arm9\source\scenario.h	/^class Scenario$/;"	c
+ScenarioResult	arm9\source\scenario.h	/^enum ScenarioResult$/;"	g
+ScenarioResult_CompletedBronze	arm9\source\scenario.h	/^	ScenarioResult_CompletedBronze,$/;"	e	enum:ScenarioResult
+ScenarioResult_CompletedGold	arm9\source\scenario.h	/^	ScenarioResult_CompletedGold,$/;"	e	enum:ScenarioResult
+ScenarioResult_CompletedSilver	arm9\source\scenario.h	/^	ScenarioResult_CompletedSilver,$/;"	e	enum:ScenarioResult
+ScenarioResult_Failed	arm9\source\scenario.h	/^	ScenarioResult_Failed,$/;"	e	enum:ScenarioResult
+ScenarioResult_NotComplete	arm9\source\scenario.h	/^	ScenarioResult_NotComplete,$/;"	e	enum:ScenarioResult
+ScenarioTimedPopulation	arm9\source\scenario.h	/^		ScenarioTimedPopulation(int player, int pop, int gold, int silver, int bronze)$/;"	f	class:ScenarioTimedPopulation
+ScenarioTimedPopulation	arm9\source\scenario.h	/^class ScenarioTimedPopulation : public Scenario$/;"	c
+ScopedArray	arm9\source\lg\scoped_array.h	/^			explicit ScopedArray(T * p = 0) : mPtr(p) {}$/;"	f	class:luvafair::ScopedArray
+ScopedArray	arm9\source\lg\scoped_array.h	/^	template <class T> class ScopedArray$/;"	c	namespace:luvafair
+ScopedPtr	arm9\source\lg\scoped_ptr.h	/^		ScopedPtr(T* ptr = 0) : mPtr(ptr) {}$/;"	f	class:luvafair::ScopedPtr
+ScopedPtr	arm9\source\lg\scoped_ptr.h	/^	class ScopedPtr$/;"	c	namespace:luvafair
+Screen	arm9\source\gui.h	/^	Screen(u16* bg) : mBG(bg), mNumItems(0) {}$/;"	f	class:Screen
+Screen	arm9\source\gui.h	/^class Screen$/;"	c
+Seed	arm9\source\lg\rand.cpp	/^void Rand::Seed(unsigned int a_Seed)$/;"	f	class:luvafair::Rand
+Set0	arm9\source\lg\sprite.h	/^			void Set0(int id, uint16 val) { mSpriteEntries[id].attribute[0] = val; }$/;"	f	class:luvafair::SpriteHardware
+Set1	arm9\source\lg\sprite.h	/^			void Set1(int id, uint16 val) { mSpriteEntries[id].attribute[1] = val; }$/;"	f	class:luvafair::SpriteHardware
+Set2	arm9\source\lg\sprite.h	/^			void Set2(int id, uint16 val) { mSpriteEntries[id].attribute[2] = val; }$/;"	f	class:luvafair::SpriteHardware
+SetAnimation	arm9\source\lg\sprite.cpp	/^void SpriteInstance::SetAnimation(int anim)$/;"	f	class:luvafair::SpriteInstance
+SetBottom	arm9\source\fe.cpp	/^	void SetBottom(Screen* s) { mBottom = s; mBottom->Draw(); }$/;"	f	class:FE
+SetBuilding	arm9\source\map.cpp	/^void Map::SetBuilding(int sx, int sy, BuildingIndex building)$/;"	f	class:Map
+SetCallback	arm9\source\gui.cpp	/^void Button::SetCallback(ButtonCallback func)$/;"	f	class:Button
+SetCurrentResearch	arm9\source\sim.h	/^	void SetCurrentResearch(Technology tech, int required) { mCurrentResearch = tech; mCurrentResearchRequired = required; }$/;"	f	class:Player
+SetDelta	arm9\source\sim.h	/^	void SetDelta(const V2& d) { mDelta = d; } $/;"	f	class:WanderingWorldObject
+SetEnabled	arm9\source\iconmenu.cpp	/^void IconMenu::SetEnabled(BuildingIndex index, bool enabled)$/;"	f	class:IconMenu
+SetEndOfAnimation	arm9\source\lg\sprite.cpp	/^void SpriteData::SetEndOfAnimation()$/;"	f	class:luvafair::SpriteData
+SetFlipX	arm9\source\lg\sprite.cpp	/^void SpriteInstance::SetFlipX(bool flipped)$/;"	f	class:luvafair::SpriteInstance
+SetFlipY	arm9\source\lg\sprite.cpp	/^void SpriteInstance::SetFlipY(bool flipped)$/;"	f	class:luvafair::SpriteInstance
+SetFrame	arm9\source\lg\sprite.cpp	/^void SpriteInstance::SetFrame(int frame)$/;"	f	class:luvafair::SpriteInstance
+SetHappiness	arm9\source\sim.h	/^	void SetHappiness(luvafair::F32 val) { mHappiness = Max(Min(val, luvafair::F32(2000)), luvafair::F32(0)); }$/;"	f	class:Player
+SetHaveTechnology	arm9\source\sim.h	/^	void SetHaveTechnology(Technology tech) { mTechnologies[tech] = true; }$/;"	f	class:Player
+SetMatrix	arm9\source\lg\sprite.cpp	/^void SpriteInstance::SetMatrix(const SpriteMatrix* matrix)$/;"	f	class:luvafair::SpriteInstance
+SetMoney	arm9\source\sim.h	/^	void SetMoney(luvafair::F32 val) { mMoney = val; }$/;"	f	class:Player
+SetMoveBias	arm9\source\sim.h	/^	void SetMoveBias(const V2& bias) { mBias = bias; }$/;"	f	class:WanderingWorldObject
+SetPercentage	arm9\source\progress_build.cpp	/^void ProgressBuild::SetPercentage(F32 percent)$/;"	f	class:ProgressBuild
+SetPopulation	arm9\source\sim.h	/^	void SetPopulation(int val) { mPopulation = Max(val, 0); }$/;"	f	class:Player
+SetPosition	arm9\source\lg\sprite.cpp	/^void SpriteInstance::SetPosition(const V2& pos)$/;"	f	class:luvafair::SpriteInstance
+SetPosition	arm9\source\lg\sprite.cpp	/^void SpriteInstance::SetPosition(int x, int y)$/;"	f	class:luvafair::SpriteInstance
+SetProduction	arm9\source\sim.h	/^	void SetProduction(luvafair::F32 val) { mProduction = val; }$/;"	f	class:Player
+SetRotation	arm9\source\lg\sprite.cpp	/^void SpriteMatrix::SetRotation(int degrees)$/;"	f	class:luvafair::SpriteMatrix
+SetShipHasTarget	arm9\source\sim.h	/^	void SetShipHasTarget(int ship, bool has) { assert(ship >= 0 && ship < mNumShips); mShipHasTarget[ship] = has; }$/;"	f	class:Player
+SetShipTarget	arm9\source\sim.h	/^	void SetShipTarget(int ship, const V2& target) { assert(ship >= 0 && ship < mNumShips); mShipTarget[ship] = target; mShipHasTarget[ship] = true; }$/;"	f	class:Player
+SetSim	arm9\source\saved_inputs.h	/^		void SetSim(Sim* sim) { mSim = sim; }$/;"	f	class:SavedInputPlayer
+SetSim	arm9\source\saved_inputs.h	/^		void SetSim(const Sim* sim) { mSim = sim; }$/;"	f	class:SavedInputSaver
+SetSpriteInstance	arm9\source\object_mgr.h	/^		void SetSpriteInstance(luvafair::SpriteInstance* si) { assert(si); mSI = si; }$/;"	f	class:WorldObject
+SetText	arm9\source\gui.cpp	/^void Button::SetText(const char* text)$/;"	f	class:Button
+SetText	arm9\source\gui.cpp	/^void WrappedLabel::SetText(const char* text)$/;"	f	class:WrappedLabel
+SetTop	arm9\source\fe.cpp	/^	void SetTop(Screen* s) { mTop = s; mTop->Draw(); }$/;"	f	class:FE
+SetWO	arm9\source\sim.cpp	/^void WanderingWorldObject::SetWO(WorldObject* wo)$/;"	f	class:WanderingWorldObject
+Show	arm9\source\object_mgr.h	/^		void Show() { mSI->SetPosition(pos); mIsHidden = false; }$/;"	f	class:WorldObject
+Show	arm9\source\progress_build.cpp	/^void ProgressBuild::Show()$/;"	f	class:ProgressBuild
+Show	arm9\source\sim.cpp	/^void WanderingWorldObject::Show()$/;"	f	class:WanderingWorldObject
+ShowDown	arm9\source\edge_arrows.cpp	/^void EdgeArrows::ShowDown(bool on)$/;"	f	class:EdgeArrows
+ShowLeft	arm9\source\edge_arrows.cpp	/^void EdgeArrows::ShowLeft(bool on)$/;"	f	class:EdgeArrows
+ShowRight	arm9\source\edge_arrows.cpp	/^void EdgeArrows::ShowRight(bool on)$/;"	f	class:EdgeArrows
+ShowUp	arm9\source\edge_arrows.cpp	/^void EdgeArrows::ShowUp(bool on)$/;"	f	class:EdgeArrows
+Sim	arm9\source\sim.cpp	/^Sim::Sim(Map& map, ObjectMgr& om, Render& render, MessageDisplay& md, Tips& tips, Rand& rand, SimSerializer* saveInputs)$/;"	f	class:Sim
+Sim	arm9\source\sim.h	/^class Sim$/;"	c
+SimSerializer	arm9\source\sim.h	/^struct SimSerializer$/;"	s
+SkipSpaces	arm9\source\lg\font.cpp	/^static const char* SkipSpaces(const char* t)$/;"	f	namespace:luvafair	file:
+SndCmdPauseSong	arm7\source\Sound7.c	/^static void SndCmdPauseSong(SND_COMMAND *cmd)$/;"	f	file:
+SndCmdPlaySample	arm7\source\Sound7.c	/^static void SndCmdPlaySample(SND_COMMAND* cmd)$/;"	f	file:
+SndCmdPlaySong	arm7\source\Sound7.c	/^static void SndCmdPlaySong(SND_COMMAND *cmd)$/;"	f	file:
+SndCmdSetCallback	arm7\source\Sound7.c	/^static void SndCmdSetCallback(SND_COMMAND *cmd)$/;"	f	file:
+SndCmdSetMemPool	arm7\source\Sound7.c	/^static void SndCmdSetMemPool(SND_COMMAND *cmd)$/;"	f	file:
+SndCmdSetVolume	arm7\source\Sound7.c	/^static void SndCmdSetVolume(SND_COMMAND *cmd)$/;"	f	file:
+SndCmdStopSong	arm7\source\Sound7.c	/^static void SndCmdStopSong(SND_COMMAND *cmd)$/;"	f	file:
+SndInit7	arm7\source\Sound7.c	/^void SndInit7()$/;"	f
+SndInit9	arm9\source\Sound9.cpp	/^void SndInit9()$/;"	f
+SndPauseMOD	arm9\source\Sound9.cpp	/^void SndPauseMOD(BOOL bPaused)$/;"	f
+SndPlayMOD	arm9\source\Sound9.cpp	/^void SndPlayMOD(const void *modFile)$/;"	f
+SndPlaySample	arm9\source\Sound9.cpp	/^void SndPlaySample(const u8* sampleData, u8 volume)$/;"	f
+SndSetMODCallback	arm9\source\Sound9.cpp	/^void SndSetMODCallback(MOD_CALLBACK callback)$/;"	f
+SndSetMemPool	arm9\source\Sound9.cpp	/^void SndSetMemPool(void *memPool, u32 memPoolSize)$/;"	f
+SndStopMOD	arm9\source\Sound9.cpp	/^void SndStopMOD()$/;"	f
+SndTimerIrq	arm7\source\Sound7.c	/^void SndTimerIrq()$/;"	f
+SndVblIrq	arm7\source\Sound7.c	/^void SndVblIrq()$/;"	f
+Sort	arm9\source\sim.cpp	/^template <class T> void Sort(T* array, int size)$/;"	f
+SoundEffect	arm9\source\sound_effects.h	/^enum SoundEffect$/;"	g
+SoundIsEnabled	arm9\source\audio.cpp	/^bool Audio::SoundIsEnabled() { return mSound; }$/;"	f	class:Audio
+SoundSendCmd	arm9\source\Sound9.cpp	/^void SoundSendCmd(SND_COMMAND_TYPE cmdType, u32 param32)$/;"	f
+Sound_Balloon	arm9\source\sound_effects.h	/^	Sound_Balloon,$/;"	e	enum:SoundEffect
+Sound_BuildingFinished	arm9\source\sound_effects.h	/^	Sound_BuildingFinished,$/;"	e	enum:SoundEffect
+Sound_Click	arm9\source\sound_effects.h	/^	Sound_Click,$/;"	e	enum:SoundEffect
+Sound_Count	arm9\source\sound_effects.h	/^	Sound_Count$/;"	e	enum:SoundEffect
+Sound_Destroy	arm9\source\sound_effects.h	/^	Sound_Destroy,$/;"	e	enum:SoundEffect
+Sound_Error	arm9\source\sound_effects.h	/^	Sound_Error,$/;"	e	enum:SoundEffect
+Sound_Lose	arm9\source\sound_effects.h	/^	Sound_Lose,$/;"	e	enum:SoundEffect
+Sound_MenuDown	arm9\source\sound_effects.h	/^	Sound_MenuDown,$/;"	e	enum:SoundEffect
+Sound_MenuUp	arm9\source\sound_effects.h	/^	Sound_MenuUp,$/;"	e	enum:SoundEffect
+Sound_PlaceBuilding	arm9\source\sound_effects.h	/^	Sound_PlaceBuilding,$/;"	e	enum:SoundEffect
+Sound_ResearchComplete	arm9\source\sound_effects.h	/^	Sound_ResearchComplete,$/;"	e	enum:SoundEffect
+Sound_War	arm9\source\sound_effects.h	/^	Sound_War,$/;"	e	enum:SoundEffect
+Sound_Win	arm9\source\sound_effects.h	/^	Sound_Win,$/;"	e	enum:SoundEffect
+Spend	arm9\source\sim.h	/^	void Spend(luvafair::F32 money) { mMoney -= money; }$/;"	f	class:Player
+SpriteData	arm9\source\lg\sprite.cpp	/^SpriteData::SpriteData(int w, int h, const u8* palette, int numFrames)$/;"	f	class:luvafair::SpriteData
+SpriteData	arm9\source\lg\sprite.h	/^	class SpriteData$/;"	c	namespace:luvafair
+SpriteHardware	arm9\source\lg\sprite.cpp	/^SpriteHardware::SpriteHardware()$/;"	f	class:luvafair::SpriteHardware
+SpriteHardware	arm9\source\lg\sprite.h	/^	class SpriteHardware$/;"	c	namespace:luvafair
+SpriteInstance	arm9\source\lg\sprite.cpp	/^SpriteInstance::SpriteInstance(const SpriteData* spriteData) : mSpriteData(spriteData), mAnimation(0)$/;"	f	class:luvafair::SpriteInstance
+SpriteInstance	arm9\source\lg\sprite.h	/^	class SpriteInstance$/;"	c	namespace:luvafair
+SpriteMatrix	arm9\source\lg\sprite.cpp	/^SpriteMatrix::SpriteMatrix()$/;"	f	class:luvafair::SpriteMatrix
+SpriteMatrix	arm9\source\lg\sprite.h	/^	class SpriteMatrix$/;"	c	namespace:luvafair
+SquaresHigh	arm9\source\map.h	/^		int SquaresHigh() const { return ((u16*)mMapData)[1]; }$/;"	f	class:Map
+SquaresWide	arm9\source\map.h	/^		int SquaresWide() const { return ((u16*)mMapData)[0]; }$/;"	f	class:Map
+StartBuilding	arm9\source\progress_build.cpp	/^void ProgressBuild::StartBuilding(const u8* data, const V2& mapLocation)$/;"	f	class:ProgressBuild
+StartBuilding	arm9\source\sim.cpp	/^void Player::StartBuilding(BuildingIndex buildingIndex, const V2& location)$/;"	f	class:Player
+StartBuilding	arm9\source\sim.cpp	/^void Sim::StartBuilding(PlayerId player, BuildingIndex buildingIndex, const V2& location)$/;"	f	class:Sim
+StartResearch	arm9\source\sim.cpp	/^void Sim::StartResearch(PlayerId player, Technology tech)$/;"	f	class:Sim
+StartScenario	arm9\source\fe.cpp	/^void StartScenario(GuiItem* item, Screen* scr, void* p)$/;"	f
+StartWar	arm9\source\sim.cpp	/^void Player::StartWar()$/;"	f	class:Player
+String	arm9\source\lg\string.cpp	/^	String::String(const String& string)$/;"	f	class:luvafair::String
+String	arm9\source\lg\string.cpp	/^	String::String(const char *text)$/;"	f	class:luvafair::String
+String	arm9\source\lg\string.cpp	/^	String::String(const char *text, unsigned int length)$/;"	f	class:luvafair::String
+String	arm9\source\lg\string.h	/^	class String$/;"	c	namespace:luvafair
+SubtractPopulation	arm9\source\sim.h	/^	void SubtractPopulation(int val) { mPopulation -= val; if (mPopulation < 1) mPopulation = 1; }$/;"	f	class:Player
+Sum	arm9\source\sim.cpp	/^int Buildings::Sum(BuildingIndex lookFor, int owner, int add) const$/;"	f	class:Buildings
+SumBuildings	arm9\source\sim.cpp	/^int Sim::SumBuildings(PlayerId player, BuildingIndex building, int per)$/;"	f	class:Sim
+Swap	arm9\source\lg\scoped_array.h	/^			void Swap(ScopedArray& b)$/;"	f	class:luvafair::ScopedArray
+Swap	arm9\source\lg\string.cpp	/^	void String::Swap(String& rhs)$/;"	f	class:luvafair::String
+Swap	arm9\source\lg\swap.h	/^	template<typename T> inline void Swap(T& a, T& b)$/;"	f	namespace:luvafair
+SwapToTechTree	arm9\source\main.cpp	/^void SwapToTechTree(bool isTechTree)$/;"	f
+TIMER_VAL	arm7\source\Sound7.c	49;"	d	file:
+TIME_SCALE	arm9\source\sim.cpp	/^const F32 TIME_SCALE = F32(1)\/F32(250);$/;"	v
+TRUE	SoundCommon.h	27;"	d
+Tap	arm9\source\fe.cpp	/^	void Tap(const V2& p)$/;"	f	class:FE
+Tap	arm9\source\gui.cpp	/^void Screen::Tap(const V2& p)$/;"	f	class:Screen
+Tap	arm9\source\iconmenu.cpp	/^BuildingIndex IconMenu::Tap(const V2& position)$/;"	f	class:IconMenu
+TapTest	arm9\source\gui.cpp	/^bool Arrow::TapTest(const V2& p, Screen* screen)$/;"	f	class:Arrow
+TapTest	arm9\source\gui.cpp	/^bool Button::TapTest(const V2& p, Screen* screen)$/;"	f	class:Button
+TapTest	arm9\source\gui.h	/^	virtual bool TapTest(const V2& p, Screen* screen) { return false; }$/;"	f	class:GuiItem
+TappedOnBoat	arm9\source\sim.cpp	/^int Sim::TappedOnBoat(PlayerId player, const V2& location) const$/;"	f	class:Sim
+TappedOnShip	arm9\source\sim.cpp	/^int Player::TappedOnShip(const V2& touchPos) const$/;"	f	class:Player
+Tech_Advanced_Construction	arm9\source\techtree.h	/^	Tech_Advanced_Construction,$/;"	e	enum:Technology
+Tech_Agriculture	arm9\source\techtree.h	/^	Tech_Agriculture,$/;"	e	enum:Technology
+Tech_Alphabet	arm9\source\techtree.h	/^	Tech_Alphabet,$/;"	e	enum:Technology
+Tech_Animal__Husbandry	arm9\source\techtree.h	/^	Tech_Animal__Husbandry,$/;"	e	enum:Technology
+Tech_Compass	arm9\source\techtree.h	/^	Tech_Compass,$/;"	e	enum:Technology
+Tech_Construction	arm9\source\techtree.h	/^	Tech_Construction,$/;"	e	enum:Technology
+Tech_Count	arm9\source\techtree.h	/^	Tech_Count$/;"	e	enum:Technology
+Tech_Currency	arm9\source\techtree.h	/^	Tech_Currency,$/;"	e	enum:Technology
+Tech_Education	arm9\source\techtree.h	/^	Tech_Education,$/;"	e	enum:Technology
+Tech_Engineering	arm9\source\techtree.h	/^	Tech_Engineering,$/;"	e	enum:Technology
+Tech_Farming	arm9\source\techtree.h	/^	Tech_Farming,$/;"	e	enum:Technology
+Tech_Fossil_Fuels	arm9\source\techtree.h	/^	Tech_Fossil_Fuels,$/;"	e	enum:Technology
+Tech_Fusion	arm9\source\techtree.h	/^	Tech_Fusion,$/;"	e	enum:Technology
+Tech_Invalid	arm9\source\techtree.h	/^	Tech_Invalid = -1,$/;"	e	enum:Technology
+Tech_Irrigation	arm9\source\techtree.h	/^	Tech_Irrigation,$/;"	e	enum:Technology
+Tech_Machinery	arm9\source\techtree.h	/^	Tech_Machinery,$/;"	e	enum:Technology
+Tech_Maps	arm9\source\techtree.h	/^	Tech_Maps,$/;"	e	enum:Technology
+Tech_Masonry	arm9\source\techtree.h	/^	Tech_Masonry,$/;"	e	enum:Technology
+Tech_Mathematics	arm9\source\techtree.h	/^	Tech_Mathematics,$/;"	e	enum:Technology
+Tech_Medicine	arm9\source\techtree.h	/^	Tech_Medicine,$/;"	e	enum:Technology
+Tech_Metal_Work	arm9\source\techtree.h	/^	Tech_Metal_Work,$/;"	e	enum:Technology
+Tech_Mining	arm9\source\techtree.h	/^	Tech_Mining,$/;"	e	enum:Technology
+Tech_Religion	arm9\source\techtree.h	/^	Tech_Religion,$/;"	e	enum:Technology
+Tech_Tornado__Resistance	arm9\source\techtree.h	/^	Tech_Tornado__Resistance,$/;"	e	enum:Technology
+Tech_Trade_Routes	arm9\source\techtree.h	/^	Tech_Trade_Routes,$/;"	e	enum:Technology
+Tech_War_Boats	arm9\source\techtree.h	/^	Tech_War_Boats,$/;"	e	enum:Technology
+Tech_Wheel	arm9\source\techtree.h	/^	Tech_Wheel,$/;"	e	enum:Technology
+Technology	arm9\source\techtree.h	/^enum Technology$/;"	g
+TechnologyInfo	arm9\source\techtree.h	/^struct TechnologyInfo$/;"	s
+TextAlignment	arm9\source\lg\font.h	/^	enum TextAlignment$/;"	g	namespace:luvafair
+TextAlignment_Centre	arm9\source\lg\font.h	/^		TextAlignment_Centre = 2,$/;"	e	enum:luvafair::TextAlignment
+TextAlignment_Left	arm9\source\lg\font.h	/^		TextAlignment_Left = 0,$/;"	e	enum:luvafair::TextAlignment
+TextAlignment_Right	arm9\source\lg\font.h	/^		TextAlignment_Right = 1,$/;"	e	enum:luvafair::TextAlignment
+Texture	arm9\source\lg\texture.cpp	/^Texture::Texture(const u8* data) : mData(data)$/;"	f	class:luvafair::Texture
+Texture	arm9\source\lg\texture.h	/^	class Texture$/;"	c	namespace:luvafair
+TicksAsTime	arm9\source\lg\string.cpp	/^	String TicksAsTime(int t)$/;"	f	namespace:luvafair
+TilesHigh	arm9\source\map.h	/^		int TilesHigh() const { return SquaresHigh() * LG_TILES_PER_SQUARE; }$/;"	f	class:Map
+TilesWide	arm9\source\map.h	/^		int TilesWide() const { return SquaresWide() * LG_TILES_PER_SQUARE; }$/;"	f	class:Map
+TipType	arm9\source\tips.h	/^enum TipType$/;"	g
+Tip_AboutTornados	arm9\source\tips.h	/^	Tip_AboutTornados,$/;"	e	enum:TipType
+Tip_BulldozerBeforeBuilding	arm9\source\tips.h	/^	Tip_BulldozerBeforeBuilding,$/;"	e	enum:TipType
+Tip_CompletedFirstResearch	arm9\source\tips.h	/^	Tip_CompletedFirstResearch,$/;"	e	enum:TipType
+Tip_CompletedFirstResearch2	arm9\source\tips.h	/^	Tip_CompletedFirstResearch2,$/;"	e	enum:TipType
+Tip_Count	arm9\source\tips.h	/^	Tip_Count$/;"	e	enum:TipType
+Tip_CropsNearWater	arm9\source\tips.h	/^	Tip_CropsNearWater,$/;"	e	enum:TipType
+Tip_DoResearch	arm9\source\tips.h	/^	Tip_DoResearch,$/;"	e	enum:TipType
+Tip_DoResearch2	arm9\source\tips.h	/^	Tip_DoResearch2 = Tip_First,$/;"	e	enum:TipType
+Tip_DoResearch3	arm9\source\tips.h	/^	Tip_DoResearch3,$/;"	e	enum:TipType
+Tip_First	arm9\source\tips.h	/^	Tip_First, $/;"	e	enum:TipType
+Tip_FirstBuildings	arm9\source\tips.h	/^	Tip_FirstBuildings,$/;"	e	enum:TipType
+Tip_InterfaceMove	arm9\source\tips.h	/^	Tip_InterfaceMove,$/;"	e	enum:TipType
+Tip_Invalid	arm9\source\tips.h	/^	Tip_Invalid = -1,$/;"	e	enum:TipType
+Tip_OnlyOneBuilding	arm9\source\tips.h	/^	Tip_OnlyOneBuilding,$/;"	e	enum:TipType
+Tip_School	arm9\source\tips.h	/^	Tip_School,$/;"	e	enum:TipType
+Tip_TechUp	arm9\source\tips.h	/^	Tip_TechUp,$/;"	e	enum:TipType
+Tip_Welcome1	arm9\source\tips.h	/^	Tip_Welcome1,$/;"	e	enum:TipType
+Tip_Welcome2	arm9\source\tips.h	/^	Tip_Welcome2,$/;"	e	enum:TipType
+Tip_Welcome3	arm9\source\tips.h	/^	Tip_Welcome3,$/;"	e	enum:TipType
+Tip_YourIsland	arm9\source\tips.h	/^	Tip_YourIsland,$/;"	e	enum:TipType
+Tips	arm9\source\tips.cpp	/^Tips::Tips(Font& font, bool disable)$/;"	f	class:Tips
+Tips	arm9\source\tips.h	/^class Tips$/;"	c
+ToMap	arm9\source\sim.cpp	/^static V2 ToMap(const V2& pixels)$/;"	f	file:
+ToString	arm9\source\lg\string.cpp	/^	String ToString(const String& t)$/;"	f	namespace:luvafair
+ToString	arm9\source\lg\string.cpp	/^	String ToString(const char* t)$/;"	f	namespace:luvafair
+ToString	arm9\source\lg\string.cpp	/^	String ToString(float t)$/;"	f	namespace:luvafair
+ToString	arm9\source\lg\string.cpp	/^	String ToString(int t)$/;"	f	namespace:luvafair
+ToString	arm9\source\lg\string.cpp	/^	String ToString(unsigned int t)$/;"	f	namespace:luvafair
+ToWorld	arm9\source\sim.cpp	/^static V2 ToWorld(const V2& square)$/;"	f	file:
+ToggleMusicEnabled	arm9\source\audio.cpp	/^void Audio::ToggleMusicEnabled()$/;"	f	class:Audio
+ToggleMusicText	arm9\source\fe.cpp	/^void ToggleMusicText(GuiItem* item, Screen* scr, void *)$/;"	f
+ToggleSoundEnabled	arm9\source\audio.cpp	/^void Audio::ToggleSoundEnabled()$/;"	f	class:Audio
+ToggleSoundText	arm9\source\fe.cpp	/^void ToggleSoundText(GuiItem* item, Screen* scr, void *)$/;"	f
+TouchSmoother	arm9\source\touch_smoother.h	/^	TouchSmoother() : mPositionCount(0), mPressed(false), mPressedSolid(false), mReleased(false) {}$/;"	f	class:TouchSmoother
+TouchSmoother	arm9\source\touch_smoother.h	/^class TouchSmoother$/;"	c
+TrackCP	arm9\source\lg\memtrack.cpp	/^	struct TrackCP$/;"	s	namespace:lg	file:
+TrackCheckpoint	arm9\source\lg\memtrack.cpp	/^	TrackCheckpoint::TrackCheckpoint() : head(0) {}$/;"	f	class:lg::TrackCheckpoint
+TrackCheckpoint	arm9\source\lg\memtrack.h	/^	struct TrackCheckpoint$/;"	s	namespace:lg
+TrackDump	arm9\source\lg\memtrack.cpp	/^	void TrackDump(TrackCheckpoint* cp)$/;"	f	namespace:lg
+TrackFree	arm9\source\lg\memtrack.cpp	/^	void TrackFree(void* p)$/;"	f	namespace:lg
+TrackMalloc	arm9\source\lg\memtrack.cpp	/^	void* TrackMalloc(size_t size)$/;"	f	namespace:lg
+TrackSaveCheckpoint	arm9\source\lg\memtrack.cpp	/^	void TrackSaveCheckpoint(TrackCheckpoint* cp)$/;"	f	namespace:lg
+TrackStamp	arm9\source\lg\memtrack.cpp	/^	void TrackStamp(void* p, const MemStamp& stamp)$/;"	f	namespace:lg
+TruncateToInt	arm9\source\lg\v2.h	/^	V2NoCtor TruncateToInt() const$/;"	f	class:V2NoCtor
+Update	arm9\source\cpu_player.cpp	/^void CpuPlayer::Update()$/;"	f	class:CpuPlayer
+Update	arm9\source\lg\sprite.cpp	/^void SpriteHardware::Update()$/;"	f	class:luvafair::SpriteHardware
+Update	arm9\source\message.cpp	/^void MessageDisplay::Update(u16* bg, Font& font, int player)$/;"	f	class:MessageDisplay
+Update	arm9\source\object_mgr.cpp	/^void ObjectMgr::Update(const V2& scrollLoc)$/;"	f	class:ObjectMgr
+Update	arm9\source\saved_inputs.cpp	/^bool SavedInputPlayer::Update()$/;"	f	class:SavedInputPlayer
+Update	arm9\source\sim.cpp	/^void Sim::Update()$/;"	f	class:Sim
+Update	arm9\source\tips.cpp	/^bool Tips::Update(u16* bg, u16 down)$/;"	f	class:Tips
+Update	arm9\source\touch_smoother.cpp	/^void TouchSmoother::Update()$/;"	f	class:TouchSmoother
+UpdateAnimations	arm9\source\sim.cpp	/^void Sim::UpdateAnimations()$/;"	f	class:Sim
+UpdateFrame	arm9\source\lg\sprite.cpp	/^void SpriteData::UpdateFrame(int frame, const u8* data)$/;"	f	class:luvafair::SpriteData
+UpdateHappiness	arm9\source\sim.cpp	/^void Sim::UpdateHappiness()$/;"	f	class:Sim
+UpdatePopulation	arm9\source\sim.cpp	/^void Sim::UpdatePopulation()$/;"	f	class:Sim
+V2	arm9\source\lg\v2.h	/^		V2() { x = 0; y = 0; }$/;"	f	class:V2
+V2	arm9\source\lg\v2.h	/^		V2(const V2NoCtor& v2)$/;"	f	class:V2
+V2	arm9\source\lg\v2.h	/^		V2(const touchPosition& tp) { x = tp.px; y = tp.py; }$/;"	f	class:V2
+V2	arm9\source\lg\v2.h	/^		V2(int x_, int y_) { x = x_; y = y_; }$/;"	f	class:V2
+V2	arm9\source\lg\v2.h	/^		V2(luvafair::F32 x_, luvafair::F32 y_) { x = x_; y = y_; }$/;"	f	class:V2
+V2	arm9\source\lg\v2.h	/^class V2 : public V2NoCtor$/;"	c
+V2NoCtor	arm9\source\lg\v2.h	/^class V2NoCtor$/;"	c
+ValidateScroll	arm9\source\map.cpp	/^void Map::ValidateScroll(V2& loc, EdgeArrows& edgeArrows)$/;"	f	class:Map
+VblankHandler	arm7\source\main.c	/^void VblankHandler(void) {$/;"	f
+VcountHandler	arm7\source\main.c	/^void VcountHandler() {$/;"	f
+VramGetBank	arm9\source\lg\texture.cpp	/^uint16* VramGetBank(uint16 *addr)$/;"	f	namespace:luvafair
+VramIsTextureBank	arm9\source\lg\texture.cpp	/^int VramIsTextureBank(uint16 *addr)$/;"	f	namespace:luvafair
+WanderingWorldObject	arm9\source\sim.h	/^	WanderingWorldObject() : mWO(0), mDelta(0,0), mVisible(false), mFrameCount(0) {}$/;"	f	class:WanderingWorldObject
+WanderingWorldObject	arm9\source\sim.h	/^class WanderingWorldObject$/;"	c
+WarPath	arm9\source\sim.cpp	/^static V2NoCtor WarPath[] =$/;"	v	file:
+WidthHeightToAttr	arm9\source\lg\sprite.cpp	/^struct WidthHeightToAttr$/;"	s	namespace:luvafair	file:
+WinType	arm9\source\sim.h	/^enum WinType$/;"	g
+WinType_Invalid	arm9\source\sim.h	/^	WinType_Invalid,$/;"	e	enum:WinType
+WinType_Missiles	arm9\source\sim.h	/^	WinType_Missiles,$/;"	e	enum:WinType
+WinType_Population	arm9\source\sim.h	/^	WinType_Population,$/;"	e	enum:WinType
+WorldObject	arm9\source\object_mgr.h	/^		WorldObject() : pos(0, 0), mSI(0), mIsHidden(false), mOwnSI(false) {}$/;"	f	class:WorldObject
+WorldObject	arm9\source\object_mgr.h	/^class WorldObject$/;"	c
+WrapText	arm9\source\lg\font.cpp	/^static void WrapText(int width, Font& font, const char* inText, char* outText)$/;"	f	namespace:luvafair	file:
+WrappedLabel	arm9\source\gui.h	/^	WrappedLabel(const char* text, int x, int y, int w, int h, u16 colour) : mText(text), x(x), y(y), w(w), h(h), mColour(colour) {}$/;"	f	class:WrappedLabel
+WrappedLabel	arm9\source\gui.h	/^class WrappedLabel : public GuiItem$/;"	c
+WriteToFAT	arm9\source\saved_inputs.cpp	/^bool SavedInputSaver::WriteToFAT(bool replay)$/;"	f	class:SavedInputSaver
+WriteToSRAM	arm9\source\saved_inputs.cpp	/^bool SavedInputSaver::WriteToSRAM(bool replay)$/;"	f	class:SavedInputSaver
+_MOD	arm7\source\Sound7.h	/^typedef struct _MOD$/;"	s
+_MODFILE_LOAD_VARS	arm7\source\ModFile.c	/^typedef struct _MODFILE_LOAD_VARS$/;"	s	file:
+_MOD_CHANNEL	arm7\source\Sound7.h	/^typedef struct _MOD_CHANNEL$/;"	s
+_MOD_EFFECT_TABLE	arm7\source\Sound7.c	/^typedef enum _MOD_EFFECT_TABLE$/;"	g	file:
+_MOD_STATE	arm7\source\Sound7.h	/^typedef enum _MOD_STATE$/;"	g
+_MOD_UPDATE_FLAGS	arm7\source\Sound7.c	/^typedef enum _MOD_UPDATE_FLAGS$/;"	g	file:
+_MOD_UPDATE_VARS	arm7\source\Sound7.c	/^typedef struct _MOD_UPDATE_VARS$/;"	s	file:
+_MOD_VIBRATO_PARAMS	arm7\source\Sound7.h	/^typedef struct _MOD_VIBRATO_PARAMS$/;"	s
+_MOD_WAVEFORM	arm7\source\Sound7.c	/^typedef enum _MOD_WAVEFORM$/;"	g	file:
+_SAMPLE_HEADER	arm7\source\Sound7.h	/^typedef struct _SAMPLE_HEADER$/;"	s
+_SND_COMMAND	SoundCommon.h	/^typedef struct _SND_COMMAND$/;"	s
+_SND_COMMAND_TYPE	SoundCommon.h	/^typedef enum _SND_COMMAND_TYPE$/;"	g
+_SND_CONTROL	SoundCommon.h	/^typedef struct _SND_CONTROL$/;"	s
+_SOUND_CHANNEL	arm7\source\Sound7.h	/^typedef struct _SOUND_CHANNEL$/;"	s
+_SOUND_VARS	arm7\source\Sound7.h	/^typedef struct _SOUND_VARS$/;"	s
+abs	arm9\source\lg\srast.h	/^		template <class U> U abs(const U& a) { return (a < 0) ? -a : a; }$/;"	f	struct:SRastBuffer::PolygonEdge
+addEdge	arm9\source\lg\srast.h	/^	inline PolygonEdge *addEdge(PolygonEdge *list, PolygonEdge *edge, bool sortByX)$/;"	f	class:SRastBuffer
+alignVal	arm9\source\lg\texture.cpp	/^static inline uint32 alignVal(uint32 val, uint32 to)$/;"	f	namespace:luvafair	file:
+allocNumber	arm9\source\lg\memtrack.cpp	/^		int allocNumber;$/;"	m	struct:lg::TrackCP	file:
+arpeggioTick	arm7\source\Sound7.h	/^		u8 arpeggioTick;	\/\/ Cycles 0-2 for original note and arpeggio notes$/;"	m	union:_MOD_CHANNEL::<anonymous>
+arrow	arm9\source\edge_arrows.h	/^	luvafair::SpriteData arrow;$/;"	m	class:EdgeArrows
+assert	arm9\source\lg\lg.h	14;"	d
+assertmsg	arm9\source\lg\lg.h	28;"	d
+attr0	arm9\source\lg\sprite.cpp	/^	u16 attr0;$/;"	m	struct:luvafair::WidthHeightToAttr	file:
+attr1	arm9\source\lg\sprite.cpp	/^	u16 attr1;$/;"	m	struct:luvafair::WidthHeightToAttr	file:
+bInitialized	SoundCommon.h	/^	BOOL		bInitialized;	\/\/ Set by ARM9's SndInit$/;"	m	struct:_SND_CONTROL
+bInitialized	arm7\source\Sound7.h	/^	BOOL	bInitialized;			\/\/ Set by SndInit$/;"	m	struct:_SOUND_VARS
+bottom	arm9\source\lg\srast.h	/^		int bottom;$/;"	m	struct:SRastBuffer::PolygonEdge
+breakRow	arm7\source\Sound7.h	/^	u8 breakRow;					\/\/ Starting row when order changes (normally 0)$/;"	m	struct:_MOD
+build	arm9\source\edge_arrows.h	/^	luvafair::SpriteInstance right, down, left, up, build, research;$/;"	m	class:EdgeArrows
+buildart	arm9\source\edge_arrows.h	/^	luvafair::SpriteData buildart, researchart;$/;"	m	class:EdgeArrows
+c_str	arm9\source\lg\string.h	/^			const char *c_str() const { return mText; }$/;"	f	class:luvafair::String
+callback	arm7\source\Sound7.h	/^	MOD_CALLBACK callback;			\/\/ User function called by 0xE0 effects$/;"	m	struct:_MOD
+channel	arm7\source\Sound7.h	/^	MOD_CHANNEL channel[SND_MAX_CHANNELS];   \/\/ Current state of each channel$/;"	m	struct:_MOD
+channelBlocked	arm7\source\Sound7.h	/^	u16		channelBlocked;			\/\/ One bit per mixer channel$/;"	m	struct:_SOUND_VARS
+channelCount	arm7\source\Sound7.h	/^	u8 channelCount;$/;"	m	struct:_MOD
+charWidths	arm9\source\lg\font.h	/^		u8 charWidths[FontButton_LastButton - FontFirstCharacter + 1];$/;"	m	struct:luvafair::FontData
+chnIdx	arm7\source\Sound7.c	/^	u8				chnIdx;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+cmd	SoundCommon.h	/^	SND_COMMAND	cmd[MAX_SND_COMMANDS];$/;"	m	struct:_SND_CONTROL
+cmdFuncTable	arm7\source\Sound7.c	/^static const COMMAND_FUNC_PTR cmdFuncTable[SND_CMD_NUM] = $/;"	v	file:
+cmdType	SoundCommon.h	/^	u8 cmdType;		\/\/ SND_COMMAND_TYPE enum$/;"	m	struct:_SND_COMMAND
+cmprsdSong	arm7\source\Sound7.h	/^	u8*		cmprsdSong;				\/\/ Compressed song$/;"	m	struct:_SOUND_VARS
+cost	arm9\source\techtree.h	/^	u16 cost;$/;"	m	struct:TechnologyInfo
+count	arm9\source\lg\memtrack.cpp	/^		int count;$/;"	m	struct:lg::Header	file:
+cropCount	arm9\source\sim.h	/^	int cropCount;$/;"	m	struct:Cloud
+curCmd	SoundCommon.h	/^	u8			curCmd;$/;"	m	struct:_SND_CONTROL
+curCmd	arm7\source\Sound7.h	/^	u8		curCmd;					\/\/ Index into shared sndControl.cmd[]$/;"	m	struct:_SOUND_VARS
+curOrder	arm7\source\Sound7.h	/^	u8 curOrder;					\/\/ When this gets to orderCount, stop the song$/;"	m	struct:_MOD
+curRow	arm7\source\Sound7.h	/^	u8 curRow;						\/\/ When this gets to 64, move to the next order and reset to 0$/;"	m	struct:_MOD
+data	arm7\source\Sound7.h	/^	const s8	*data;$/;"	m	struct:_SOUND_CHANNEL
+dependents	arm9\source\techtree.h	/^	Technology dependents[4];$/;"	m	struct:TechnologyInfo
+depth	arm7\source\Sound7.h	/^	u8 depth	: 4;	\/\/ Multiplied by table value, and shifted down$/;"	m	struct:_MOD_VIBRATO_PARAMS
+dest	arm7\source\ModFile.c	/^	MOD *dest;$/;"	m	struct:_MODFILE_LOAD_VARS	file:
+down	arm9\source\edge_arrows.h	/^	luvafair::SpriteInstance right, down, left, up, build, research;$/;"	m	class:EdgeArrows
+dx	arm9\source\lg\srast.h	/^		int x, dx; \/\/ fixed;$/;"	m	struct:SRastBuffer::PolygonEdge
+effect	arm7\source\Sound7.c	/^	u8				effect;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+effect	arm7\source\Sound7.h	/^	u8 effect;				\/\/ Current effect (set to 0 each row)$/;"	m	struct:_MOD_CHANNEL
+file	arm9\source\lg\memtrack.cpp	/^		char file[104];$/;"	m	struct:lg::Header	file:
+file	arm9\source\lg\memtrack.h	/^		char const * const file;$/;"	m	struct:lg::MemStamp
+fineSlide	arm7\source\Sound7.c	/^	s8				fineSlide;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+finetune	arm7\source\Sound7.h	/^	u8   finetune;$/;"	m	struct:_SAMPLE_HEADER
+finetune	arm7\source\Sound7.h	/^	u8 finetune;			\/\/ Finetune level (0-15)$/;"	m	struct:_MOD_CHANNEL
+first	arm7\source\main.c	/^touchPosition first,tempPos;$/;"	v
+gAllocCount	arm9\source\lg\memtrack.cpp	/^	static int gAllocCount = 0;$/;"	v	file:
+gCurScenario	arm9\source\fe.cpp	/^int gCurScenario;$/;"	v
+gExitBE	arm9\source\main.cpp	/^bool gExitBE;$/;"	v
+gExitFEWith	arm9\source\fe.cpp	/^GameMode gExitFEWith;$/;"	v
+gFE	arm9\source\fe.cpp	/^FE* gFE;$/;"	v
+gInPauseMenu	arm9\source\main.cpp	/^bool gInPauseMenu;$/;"	v
+gListOfBlocks	arm9\source\lg\memtrack.cpp	/^	static Header* gListOfBlocks = 0;$/;"	v	file:
+gMusicEnabled	arm9\source\fe.cpp	/^bool gMusicEnabled = true;$/;"	v
+gScenarioLabel	arm9\source\fe.cpp	/^WrappedLabel* gScenarioLabel;$/;"	v
+gScreenCredits	arm9\source\fe.cpp	/^Screen* gScreenCredits;$/;"	v
+gScreenMain	arm9\source\fe.cpp	/^Screen* gScreenMain;$/;"	v
+gScreenMulti	arm9\source\fe.cpp	/^Screen* gScreenMulti;$/;"	v
+gScreenOptions	arm9\source\fe.cpp	/^Screen* gScreenOptions;$/;"	v
+gScreenScenarios	arm9\source\fe.cpp	/^Screen* gScreenScenarios;$/;"	v
+gScreenSingle	arm9\source\fe.cpp	/^Screen* gScreenSingle;$/;"	v
+gSoundEnabled	arm9\source\fe.cpp	/^bool gSoundEnabled = true;$/;"	v
+gSpriteHardware	arm9\source\lg\sprite.cpp	/^SpriteHardware* gSpriteHardware;$/;"	v
+gTechInfo	arm9\source\techtree.cpp	/^const TechnologyInfo gTechInfo[] =$/;"	v
+getDependents	buildtt.pl	/^sub getDependents($)$/;"	s
+getFreeSoundChannel	arm7\source\main.c	/^s32 getFreeSoundChannel() {$/;"	f
+getIndexFor	tsbuild.pl	/^sub getIndexFor($$$)$/;"	s
+getIndexForNormalized	tsbuild.pl	/^sub getIndexForNormalized($$$)$/;"	s
+getUsedColours	tsbuild.pl	/^sub getUsedColours()$/;"	s
+h	arm9\source\gui.h	/^	int w, h;$/;"	m	class:Arrow
+h	arm9\source\gui.h	/^	int w, h;$/;"	m	class:Button
+h	arm9\source\gui.h	/^	int w, h;$/;"	m	class:Image
+h	arm9\source\gui.h	/^	int w, h;$/;"	m	class:WrappedLabel
+h	arm9\source\lg\sprite.cpp	/^	u8 w, h;$/;"	m	struct:luvafair::WidthHeightToAttr	file:
+head	arm9\source\lg\memtrack.h	/^		TrackCP* head;$/;"	m	struct:lg::TrackCheckpoint
+height	arm9\source\lg\font.h	/^		u16 height;$/;"	m	struct:luvafair::FontData
+height	arm9\source\techtree.h	/^	u16 width, height;$/;"	m	struct:TechnologyInfo
+irqTimer	arm7\source\Sound7.h	/^	u16		irqTimer;				\/\/ REG_TM0CNT_L value for MOD update IRQ$/;"	m	struct:_SOUND_VARS
+left	arm9\source\edge_arrows.h	/^	luvafair::SpriteInstance right, down, left, up, build, research;$/;"	m	class:EdgeArrows
+length	arm7\source\Sound7.h	/^	u16  length;$/;"	m	struct:_SAMPLE_HEADER
+length	arm7\source\Sound7.h	/^	u32			length;$/;"	m	struct:_SOUND_CHANNEL
+length	arm9\source\saved_inputs.h	/^	int length;$/;"	m	struct:SavedInputHeader
+lg	arm9\source\lg\memtrack.cpp	/^namespace lg$/;"	n	file:
+lg	arm9\source\lg\memtrack.h	/^namespace lg$/;"	n
+line	arm9\source\lg\memtrack.cpp	/^		int line;$/;"	m	struct:lg::Header	file:
+line	arm9\source\lg\memtrack.h	/^		int line;$/;"	m	struct:lg::MemStamp
+loopLength	arm7\source\Sound7.h	/^	u16			loopLength;$/;"	m	struct:_SOUND_CHANNEL
+loopLength	arm7\source\Sound7.h	/^	u16  loopLength;$/;"	m	struct:_SAMPLE_HEADER
+loopStart	arm7\source\Sound7.h	/^	u16			loopStart;$/;"	m	struct:_SOUND_CHANNEL
+loopStart	arm7\source\Sound7.h	/^	u16  loopStart;$/;"	m	struct:_SAMPLE_HEADER
+luvafair	arm9\source\iconmenu.h	/^namespace luvafair { class Font; }$/;"	n
+luvafair	arm9\source\lg\3d.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\draw.cpp	/^namespace luvafair$/;"	n	file:
+luvafair	arm9\source\lg\draw.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\f32.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\font.cpp	/^namespace luvafair$/;"	n	file:
+luvafair	arm9\source\lg\font.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\rand.cpp	/^namespace luvafair$/;"	n	file:
+luvafair	arm9\source\lg\rand.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\scoped_array.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\scoped_ptr.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\sprite.cpp	/^namespace luvafair$/;"	n	file:
+luvafair	arm9\source\lg\sprite.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\string.cpp	/^namespace luvafair$/;"	n	file:
+luvafair	arm9\source\lg\string.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\swap.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\lg\texture.cpp	/^namespace luvafair$/;"	n	file:
+luvafair	arm9\source\lg\texture.h	/^namespace luvafair$/;"	n
+luvafair	arm9\source\linegraph.h	/^namespace luvafair { class Font; }$/;"	n
+luvafair	arm9\source\message.h	/^namespace luvafair { class Font; }$/;"	n
+luvafair	arm9\source\scenario.h	/^namespace luvafair { class Font; }$/;"	n
+luvafair	arm9\source\tips.h	/^namespace luvafair { class Font; }$/;"	n
+mActiveMessages	arm9\source\message.h	/^	bool mActiveMessages[2][MessageType_Count];$/;"	m	class:MessageDisplay
+mAddress	arm9\source\lg\texture.h	/^		uint16 mAddress;$/;"	m	class:luvafair::Texture
+mAnimEndFrames	arm9\source\lg\sprite.h	/^			int mAnimEndFrames[MAX_NUM_ANIMS];$/;"	m	class:luvafair::SpriteData
+mAnimation	arm9\source\lg\sprite.h	/^			int mAnimation;$/;"	m	class:luvafair::SpriteInstance
+mAverageHappy	arm9\source\sim.h	/^	luvafair::F32 mAverageHappy;$/;"	m	class:Player
+mBG	arm9\source\gui.h	/^	u16* mBG;$/;"	m	class:Screen
+mBaseTile	arm9\source\lg\sprite.h	/^			int mBaseTile;$/;"	m	class:luvafair::SpriteData
+mBias	arm9\source\sim.h	/^	V2 mBias;$/;"	m	class:WanderingWorldObject
+mBottom	arm9\source\fe.cpp	/^	Screen* mBottom;$/;"	m	class:FE	file:
+mBuilding	arm9\source\sim.h	/^	BuildingIndex mBuilding;$/;"	m	class:Construction
+mBuildings	arm9\source\sim.h	/^	Building* mBuildings;$/;"	m	class:Buildings
+mBuildings	arm9\source\sim.h	/^	Buildings mBuildings;$/;"	m	class:Sim
+mBuiltOn	arm9\source\sim.h	/^		int mBuiltOn;$/;"	m	struct:Buildings::Building
+mCallback	arm9\source\gui.h	/^	ButtonCallback mCallback;$/;"	m	class:Arrow
+mCallback	arm9\source\gui.h	/^	ButtonCallback mCallback;$/;"	m	class:Button
+mCaptions	arm9\source\iconmenu.h	/^	const char* mCaptions[MAX_ICONS];$/;"	m	class:IconMenu
+mClouds	arm9\source\sim.h	/^	Cloud mClouds[5];$/;"	m	class:Sim
+mColour	arm9\source\gui.h	/^	u16 mColour;$/;"	m	class:Background
+mColour	arm9\source\gui.h	/^	u16 mColour;$/;"	m	class:Label
+mColour	arm9\source\gui.h	/^	u16 mColour;$/;"	m	class:WrappedLabel
+mColumns	arm9\source\iconmenu.h	/^	int mColumns;$/;"	m	class:IconMenu
+mConstruction	arm9\source\sim.h	/^	Construction mConstruction;$/;"	m	class:Player
+mCurPos	arm9\source\message.h	/^	int mCurPos;$/;"	m	class:MessageDisplay
+mCurRotation	arm9\source\lg\sprite.h	/^			int mCurRotation;$/;"	m	class:luvafair::SpriteHardware
+mCurTile	arm9\source\lg\sprite.h	/^			int mCurTile;$/;"	m	class:luvafair::SpriteHardware
+mCurrentMoney	arm9\source\sim.h	/^	luvafair::F32 mCurrentMoney;$/;"	m	class:Construction
+mCurrentResearch	arm9\source\sim.h	/^	Technology mCurrentResearch;$/;"	m	class:Player
+mCurrentResearchRequired	arm9\source\sim.h	/^	luvafair::F32 mCurrentResearchRequired;$/;"	m	class:Player
+mCurrentTick	arm9\source\sim.h	/^	int mCurrentTick;$/;"	m	class:Sim
+mData	arm9\source\lg\srast.h	/^	T* mData;$/;"	m	class:SRastBuffer
+mData	arm9\source\lg\texture.h	/^		const u8* mData;$/;"	m	class:luvafair::Texture
+mData	arm9\source\progress_build.h	/^	const u8* mData;$/;"	m	class:ProgressBuild
+mData	arm9\source\saved_inputs.h	/^	u8* mData;$/;"	m	class:SavedInputPlayer
+mData	arm9\source\saved_inputs.h	/^	u8* mData;$/;"	m	class:SavedInputSaver
+mDeleteData	arm9\source\saved_inputs.h	/^	bool mDeleteData;$/;"	m	class:SavedInputPlayer
+mDelta	arm9\source\sim.h	/^	V2 mDelta;$/;"	m	class:WanderingWorldObject
+mDisplaying	arm9\source\tips.h	/^	TipType mDisplaying;$/;"	m	class:Tips
+mEnabled	arm9\source\iconmenu.h	/^	bool mEnabled[MAX_ICONS];$/;"	m	class:IconMenu
+mFirstBuildingIndex	arm9\source\iconmenu.h	/^	int mFirstBuildingIndex;$/;"	m	class:IconMenu
+mFish	arm9\source\render.h	/^	luvafair::SpriteData mFish;$/;"	m	class:Render
+mFishingBoat	arm9\source\render.h	/^	luvafair::SpriteData mFishingBoat;$/;"	m	class:Render
+mFlags	arm9\source\cpu_player.h	/^	Map::MapFlags mFlags;$/;"	m	class:CpuPlayer
+mFont	arm9\source\iconmenu.h	/^	luvafair::Font& mFont;$/;"	m	class:IconMenu
+mFont	arm9\source\tips.h	/^	luvafair::Font& mFont;$/;"	m	class:Tips
+mFontData	arm9\source\lg\font.h	/^		const FontData* mFontData;$/;"	m	class:luvafair::Font
+mFrameCount	arm9\source\sim.h	/^	int mFrameCount;$/;"	m	class:WanderingWorldObject
+mGloballyEnabled	arm9\source\tips.h	/^	bool mGloballyEnabled;$/;"	m	class:Tips
+mHappiness	arm9\source\sim.h	/^	luvafair::F32 mHappiness;$/;"	m	class:Player
+mHappyVelocity	arm9\source\sim.h	/^	luvafair::F32 mHappyVelocity;$/;"	m	class:Player
+mHaveDisplayed	arm9\source\tips.h	/^	bool mHaveDisplayed[Tip_Count];$/;"	m	class:Tips
+mHeader	arm9\source\saved_inputs.h	/^	SavedInputHeader mHeader;$/;"	m	class:SavedInputPlayer
+mHeader	arm9\source\saved_inputs.h	/^	SavedInputHeader mHeader;$/;"	m	class:SavedInputSaver
+mHeight	arm9\source\lg\sprite.h	/^			int mHeight;$/;"	m	class:luvafair::SpriteData
+mHeight	arm9\source\lg\srast.h	/^	int mHeight;$/;"	m	class:SRastBuffer
+mIcons	arm9\source\iconmenu.h	/^	BuildingIndex mIcons[MAX_ICONS];$/;"	m	class:IconMenu
+mId	arm9\source\cpu_player.h	/^	PlayerId mId;$/;"	m	class:CpuPlayer
+mId	arm9\source\lg\sprite.h	/^			int mId;$/;"	m	class:luvafair::SpriteInstance
+mId	arm9\source\lg\sprite.h	/^		int mId;$/;"	m	class:luvafair::SpriteMatrix
+mId	arm9\source\playerid.h	/^	int mId;$/;"	m	struct:PlayerId
+mImage	arm9\source\gui.h	/^	u16* mImage;$/;"	m	class:Image
+mIndex	arm9\source\sim.h	/^	int mIndex;$/;"	m	class:Player
+mIsHidden	arm9\source\object_mgr.h	/^		bool mIsHidden;$/;"	m	class:WorldObject
+mItems	arm9\source\gui.h	/^	GuiItem* mItems[10];$/;"	m	class:Screen
+mKilledOffPeopleByHomeless	arm9\source\sim.h	/^	bool mKilledOffPeopleByHomeless;$/;"	m	class:Player
+mKilledOffPeopleBySchooling	arm9\source\sim.h	/^	bool mKilledOffPeopleBySchooling;$/;"	m	class:Player
+mKilledOffPeopleByStarving	arm9\source\sim.h	/^	bool mKilledOffPeopleByStarving;$/;"	m	class:Player
+mLength	arm9\source\lg\string.h	/^			int mLength;	$/;"	m	class:luvafair::String
+mLocation	arm9\source\sim.h	/^	V2 mLocation;$/;"	m	class:Construction
+mMap	arm9\source\cpu_player.h	/^	Map& mMap;$/;"	m	class:CpuPlayer
+mMap	arm9\source\sim.h	/^	Map& mMap;$/;"	m	class:Buildings
+mMap	arm9\source\sim.h	/^	Map& mMap;$/;"	m	class:Sim
+mMapData	arm9\source\map.h	/^	const u8* mMapData;$/;"	m	class:Map
+mMessageAux	arm9\source\message.h	/^	int mMessageAux[2][MessageType_Count];$/;"	m	class:MessageDisplay
+mMessageDisplay	arm9\source\sim.h	/^	MessageDisplay& mMessageDisplay;$/;"	m	class:Sim
+mMeterBackground	arm9\source\progress_build.h	/^	u8 mMeterBackground;$/;"	m	class:ProgressBuild
+mMeterForeground	arm9\source\progress_build.h	/^	u8 mMeterForeground;$/;"	m	class:ProgressBuild
+mMissileLaunchCount	arm9\source\sim.h	/^	int mMissileLaunchCount;$/;"	m	class:Player
+mMoney	arm9\source\sim.h	/^	luvafair::F32 mMoney;$/;"	m	class:Player
+mMusic	arm9\source\audio.cpp	/^bool Audio::mMusic;$/;"	m	class:Audio	file:
+mMusic	arm9\source\audio.h	/^	static bool mMusic;$/;"	m	class:Audio
+mNumAddedFrames	arm9\source\lg\sprite.h	/^			int mNumAddedFrames;$/;"	m	class:luvafair::SpriteData
+mNumAnims	arm9\source\lg\sprite.h	/^			int mNumAnims;$/;"	m	class:luvafair::SpriteData
+mNumIcons	arm9\source\iconmenu.h	/^	int mNumIcons;$/;"	m	class:IconMenu
+mNumItems	arm9\source\gui.h	/^	int mNumItems;$/;"	m	class:Screen
+mNumObjects	arm9\source\object_mgr.h	/^	int mNumObjects;$/;"	m	class:ObjectMgr
+mNumShips	arm9\source\sim.h	/^	int mNumShips;$/;"	m	class:Player
+mObjectMgr	arm9\source\sim.h	/^	ObjectMgr& mObjectMgr;$/;"	m	class:Sim
+mObjects	arm9\source\object_mgr.h	/^	WorldObject mObjects[128];$/;"	m	class:ObjectMgr
+mOwnSI	arm9\source\object_mgr.h	/^		bool mOwnSI;$/;"	m	class:WorldObject
+mOwner	arm9\source\sim.h	/^		u8 mOwner;$/;"	m	struct:Buildings::Building
+mPalette	arm9\source\iconmenu.h	/^	const u16* mPalette;$/;"	m	class:IconMenu
+mPaletteId	arm9\source\lg\sprite.h	/^			int mPaletteId;$/;"	m	class:luvafair::SpriteData
+mPending	arm9\source\tips.h	/^	bool mPending[Tip_Count];$/;"	m	class:Tips
+mPercentage	arm9\source\sim.h	/^	luvafair::F32 mPercentage;$/;"	m	class:Construction
+mPirate	arm9\source\render.h	/^	luvafair::SpriteData mPirate;$/;"	m	class:Render
+mPitch	arm9\source\lg\srast.h	/^	int mPitch;$/;"	m	class:SRastBuffer
+mPlayer	arm9\source\scenario.h	/^	int mPlayer;$/;"	m	class:ScenarioTimedPopulation
+mPlayers	arm9\source\sim.h	/^	Player mPlayers[2];$/;"	m	class:Sim
+mPopulation	arm9\source\scenario.h	/^	int mPopulation;$/;"	m	class:ScenarioTimedPopulation
+mPopulation	arm9\source\sim.h	/^	int mPopulation;$/;"	m	class:Player
+mPos	arm9\source\saved_inputs.h	/^	int mPos;$/;"	m	class:SavedInputPlayer
+mPos	arm9\source\saved_inputs.h	/^	int mPos;$/;"	m	class:SavedInputSaver
+mPositionCount	arm9\source\touch_smoother.h	/^	int mPositionCount;$/;"	m	class:TouchSmoother
+mPositions	arm9\source\touch_smoother.h	/^	V2 mPositions[4];$/;"	m	class:TouchSmoother
+mPressed	arm9\source\touch_smoother.h	/^	bool mPressed;$/;"	m	class:TouchSmoother
+mPressedSolid	arm9\source\touch_smoother.h	/^	bool mPressedSolid;$/;"	m	class:TouchSmoother
+mProduction	arm9\source\sim.h	/^	luvafair::F32 mProduction;$/;"	m	class:Player
+mProductionBBonus	arm9\source\sim.h	/^	luvafair::F32 mProductionBBonus;$/;"	m	class:Player
+mProductionRBonus	arm9\source\sim.h	/^	luvafair::F32 mProductionRBonus;$/;"	m	class:Player
+mProductionUpkeep	arm9\source\sim.h	/^	luvafair::F32 mProductionUpkeep;$/;"	m	class:Player
+mPtr	arm9\source\lg\scoped_array.h	/^			T* mPtr;$/;"	m	class:luvafair::ScopedArray
+mPtr	arm9\source\lg\scoped_ptr.h	/^			T* mPtr;$/;"	m	class:luvafair::ScopedPtr
+mRainCloud	arm9\source\render.h	/^	luvafair::SpriteData mRainCloud;$/;"	m	class:Render
+mRand	arm9\source\cpu_player.h	/^	luvafair::Rand mRand;$/;"	m	class:CpuPlayer
+mRand	arm9\source\sim.h	/^	luvafair::Rand& mRand;$/;"	m	class:Sim
+mRandLeft	arm9\source\lg\rand.h	/^		int mRandLeft;$/;"	m	class:luvafair::Rand
+mRandNext	arm9\source\lg\rand.h	/^		unsigned int *mRandNext;          $/;"	m	class:luvafair::Rand
+mRandState	arm9\source\lg\rand.h	/^		unsigned int mRandState[ LG_RAND_STATE_VECTOR_LENGTH + 1 ];  $/;"	m	class:luvafair::Rand
+mRawDataBuilding	arm9\source\progress_build.h	/^	u8 mRawDataBuilding[LG_ART_SQUARE_SIZE * LG_ART_SQUARE_SIZE];$/;"	m	class:ProgressBuild
+mRawDataMeter	arm9\source\progress_build.h	/^	u8 mRawDataMeter[LG_ART_SQUARE_SIZE * LG_ART_SQUARE_SIZE];$/;"	m	class:ProgressBuild
+mReclaimFlags	arm9\source\cpu_player.h	/^	Map::MapFlags mReclaimFlags;$/;"	m	class:CpuPlayer
+mReleased	arm9\source\touch_smoother.h	/^	bool mReleased;$/;"	m	class:TouchSmoother
+mRemainingTime	arm9\source\sim.h	/^	int mRemainingTime;$/;"	m	class:Sim
+mRender	arm9\source\sim.h	/^	Render& mRender;$/;"	m	class:Sim
+mRound	arm9\source\sim.h	/^	int mRound;$/;"	m	class:Sim
+mSI	arm9\source\object_mgr.h	/^		luvafair::SpriteInstance* mSI;$/;"	m	class:WorldObject
+mSaveInputs	arm9\source\sim.h	/^	SimSerializer* mSaveInputs;$/;"	m	class:Sim
+mShipHasTarget	arm9\source\sim.h	/^	bool mShipHasTarget[MAX_SHIPS];$/;"	m	class:Player
+mShipTarget	arm9\source\sim.h	/^	V2 mShipTarget[MAX_SHIPS];$/;"	m	class:Player
+mShips	arm9\source\sim.h	/^	WorldObject* mShips[MAX_SHIPS];$/;"	m	class:Player
+mSim	arm9\source\cpu_player.h	/^	Sim& mSim;$/;"	m	class:CpuPlayer
+mSim	arm9\source\saved_inputs.h	/^	Sim* mSim;$/;"	m	class:SavedInputPlayer
+mSim	arm9\source\saved_inputs.h	/^	const Sim* mSim;$/;"	m	class:SavedInputSaver
+mSound	arm9\source\audio.cpp	/^bool Audio::mSound;$/;"	m	class:Audio	file:
+mSound	arm9\source\audio.h	/^	static bool mSound;$/;"	m	class:Audio
+mSpriteData	arm9\source\lg\sprite.h	/^			const SpriteData* mSpriteData;$/;"	m	class:luvafair::SpriteInstance
+mSpriteDataBuilding	arm9\source\progress_build.h	/^	luvafair::SpriteData mSpriteDataBuilding;$/;"	m	class:ProgressBuild
+mSpriteDataMeter	arm9\source\progress_build.h	/^	luvafair::SpriteData mSpriteDataMeter;$/;"	m	class:ProgressBuild
+mSpriteEntries	arm9\source\lg\sprite.h	/^			SpriteEntry mSpriteEntries[128];$/;"	m	class:luvafair::SpriteHardware
+mSpriteInstanceBuilding	arm9\source\progress_build.h	/^	luvafair::SpriteInstance mSpriteInstanceBuilding;$/;"	m	class:ProgressBuild
+mSpriteInstanceMeter	arm9\source\progress_build.h	/^	luvafair::SpriteInstance mSpriteInstanceMeter;$/;"	m	class:ProgressBuild
+mSpriteRotations	arm9\source\lg\sprite.h	/^			SpriteRotation* mSpriteRotations;$/;"	m	class:luvafair::SpriteHardware
+mStormCloud	arm9\source\render.h	/^	luvafair::SpriteData mStormCloud;$/;"	m	class:Render
+mTA	arm9\source\gui.h	/^	luvafair::TextAlignment mTA;$/;"	m	class:Label
+mTechnologies	arm9\source\sim.h	/^	bool mTechnologies[Tech_Count];$/;"	m	class:Player
+mText	arm9\source\gui.h	/^	const char* mText;$/;"	m	class:Button
+mText	arm9\source\gui.h	/^	const char* mText;$/;"	m	class:Label
+mText	arm9\source\gui.h	/^	const char* mText;$/;"	m	class:WrappedLabel
+mText	arm9\source\lg\string.h	/^			char *mText;$/;"	m	class:luvafair::String
+mTicksBronze	arm9\source\scenario.h	/^	int mTicksBronze;$/;"	m	class:ScenarioTimedPopulation
+mTicksGold	arm9\source\scenario.h	/^	int mTicksGold;$/;"	m	class:ScenarioTimedPopulation
+mTicksSilver	arm9\source\scenario.h	/^	int mTicksSilver;$/;"	m	class:ScenarioTimedPopulation
+mTileData	arm9\source\iconmenu.h	/^	const u8* mTileData;$/;"	m	class:IconMenu
+mTimePerRound	arm9\source\sim.h	/^	int mTimePerRound;$/;"	m	class:Sim
+mTimer	arm9\source\message.h	/^	int mTimer;$/;"	m	class:MessageDisplay
+mTips	arm9\source\sim.h	/^	Tips& mTips;$/;"	m	class:Sim
+mTop	arm9\source\fe.cpp	/^	Screen* mTop;$/;"	m	class:FE	file:
+mTornado	arm9\source\render.h	/^	luvafair::SpriteData mTornado;$/;"	m	class:Render
+mTornado	arm9\source\sim.h	/^	WorldObject* mTornado;$/;"	m	class:Sim
+mTornadoAngle	arm9\source\sim.h	/^	int mTornadoAngle;$/;"	m	class:Sim
+mTornadoDelta	arm9\source\sim.h	/^	V2 mTornadoDelta;$/;"	m	class:Sim
+mTornadoIsMoving	arm9\source\sim.h	/^	bool mTornadoIsMoving;$/;"	m	class:Sim
+mTornadoRotation	arm9\source\sim.h	/^	luvafair::SpriteMatrix mTornadoRotation;$/;"	m	class:Sim
+mType	arm9\source\gui.h	/^	ArrowType mType;$/;"	m	class:Arrow
+mType	arm9\source\sim.h	/^		BuildingIndex mType;$/;"	m	struct:Buildings::Building
+mUpdate	arm9\source\cpu_player.h	/^	int mUpdate;$/;"	m	class:CpuPlayer
+mUser	arm9\source\gui.h	/^	void* mUser;$/;"	m	class:Arrow
+mUser	arm9\source\gui.h	/^	void* mUser;$/;"	m	class:Button
+mVisible	arm9\source\sim.h	/^	bool mVisible;$/;"	m	class:WanderingWorldObject
+mWO	arm9\source\sim.h	/^	WorldObject* mWO;$/;"	m	class:WanderingWorldObject
+mWarBoat	arm9\source\sim.h	/^	WorldObject* mWarBoat;$/;"	m	class:Player
+mWarBoatPosition	arm9\source\sim.h	/^	V2 mWarBoatPosition;$/;"	m	class:Sim
+mWarBoatTargetMoveIndex	arm9\source\sim.h	/^	int mWarBoatTargetMoveIndex;$/;"	m	class:Player
+mWarBoatTargetMoveIndexDelta	arm9\source\sim.h	/^	int mWarBoatTargetMoveIndexDelta;$/;"	m	class:Player
+mWidth	arm9\source\lg\sprite.h	/^			int mWidth;$/;"	m	class:luvafair::SpriteData
+mWidth	arm9\source\lg\srast.h	/^	int mWidth;$/;"	m	class:SRastBuffer
+mWinType	arm9\source\sim.h	/^	WinType mWinType;$/;"	m	class:Sim
+mWinningPlayer	arm9\source\sim.h	/^	int mWinningPlayer;$/;"	m	class:Sim
+mWorldObjectBuilding	arm9\source\progress_build.h	/^	WorldObject* mWorldObjectBuilding;$/;"	m	class:ProgressBuild
+mWorldObjectMeter	arm9\source\progress_build.h	/^	WorldObject* mWorldObjectMeter;$/;"	m	class:ProgressBuild
+magic	arm9\source\saved_inputs.h	/^	char magic[4];$/;"	m	struct:SavedInputHeader
+main	arm7\source\main.c	/^int main(int argc, char ** argv) {$/;"	f
+main	arm9\source\main.cpp	/^int main(void)$/;"	f
+max	arm9\source\lg\srast.h	/^		template <class U> U max(const U& a, const U& b) { return (a > b) ? a : b; }$/;"	f	struct:SRastBuffer::PolygonEdge
+memPool	arm7\source\ModFile.c	/^	u8 *memPool;$/;"	m	struct:_MODFILE_LOAD_VARS	file:
+memPool	arm7\source\Sound7.h	/^	void	*memPool;				\/\/ Reserved memory area to load songs$/;"	m	struct:_SOUND_VARS
+memPoolSize	arm7\source\ModFile.c	/^	u32 memPoolSize;$/;"	m	struct:_MODFILE_LOAD_VARS	file:
+memPoolSize	arm7\source\Sound7.h	/^	u32		memPoolSize;			\/\/ Needs to be as big as your largest MOD$/;"	m	struct:_SOUND_VARS
+memPoolUsed	arm7\source\ModFile.c	/^	u32 memPoolUsed;$/;"	m	struct:_MODFILE_LOAD_VARS	file:
+min	arm9\source\lg\srast.h	/^		template <class U> U min(const U& a, const U& b) { return (a < b) ? a : b; }$/;"	f	struct:SRastBuffer::PolygonEdge
+minus90	arm9\source\edge_arrows.h	/^	luvafair::SpriteMatrix plus90, minus90;$/;"	m	class:EdgeArrows
+modChn	arm7\source\Sound7.c	/^	MOD_CHANNEL		*modChn;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+modDefaultVars	arm7\source\Sound7.c	/^static const MOD_UPDATE_VARS modDefaultVars[MOD_EFFECT_TABLE_NUM] =$/;"	v	file:
+modEffectTable	arm7\source\Sound7.c	/^static const EFFECT_FUNC_PTR modEffectTable[MOD_EFFECT_TABLE_NUM][16] = $/;"	v	file:
+mode	arm9\source\saved_inputs.h	/^	GameMode mode;$/;"	m	struct:SavedInputHeader
+name	arm7\source\Sound7.h	/^	char name[20];					\/\/ Name of song, from MOD file$/;"	m	struct:_MOD
+name	arm9\source\techtree.h	/^	const char* name;$/;"	m	struct:TechnologyInfo
+new	arm9\source\lg\memtrack.cpp	9;"	d	file:
+new	arm9\source\lg\memtrack.h	42;"	d
+next	arm9\source\lg\memtrack.cpp	/^		Header* next;$/;"	m	struct:lg::Header	file:
+next	arm9\source\lg\memtrack.cpp	/^		TrackCP* next;$/;"	m	struct:lg::TrackCP	file:
+next	arm9\source\lg\srast.h	/^		PolygonEdge* next;$/;"	m	struct:SRastBuffer::PolygonEdge
+nextOrder	arm7\source\Sound7.h	/^	u8 nextOrder;					\/\/ Normally curOrder+1, unless an effect changes it$/;"	m	struct:_MOD
+nextPowerOfTwo	makefont.pl	/^sub nextPowerOfTwo($)$/;"	s
+noRetrig	arm7\source\Sound7.h	/^	u8 noRetrig	: 1;	\/\/ If FALSE, reset tick to 0 when a new note is played$/;"	m	struct:_MOD_VIBRATO_PARAMS
+note	arm7\source\Sound7.c	/^	u8				note;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+note	arm7\source\Sound7.h	/^	u8 note;				\/\/ Current note$/;"	m	struct:_MOD_CHANNEL
+noteCutTick	arm7\source\Sound7.h	/^		u8 noteCutTick;		\/\/ MOD ticks until note should cut$/;"	m	union:_MOD_CHANNEL::<anonymous>
+noteDelayTick	arm7\source\Sound7.h	/^		u8 noteDelayTick;	\/\/ MOD ticks until note should play$/;"	m	union:_MOD_CHANNEL::<anonymous>
+notePeriodTable	arm7\source\Sound7.c	/^const u16 notePeriodTable[] =$/;"	v
+numColours	makefont.pl	/^sub numColours()$/;"	s
+numColours	tsbuild.pl	/^sub numColours()$/;"	s
+operator !	arm9\source\lg\scoped_array.h	/^			bool operator! () const$/;"	f	class:luvafair::ScopedArray
+operator !=	arm9\source\lg\f32.h	/^		inline bool operator!=(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator !=	arm9\source\lg\string.cpp	/^	bool operator!=(const String& lhs, const String& rhs) { return !(lhs.Equals(rhs)); }$/;"	f	namespace:luvafair
+operator *	arm9\source\lg\f32.h	/^		inline F32 operator*(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator *	arm9\source\lg\memtrack.h	/^    template <class T> inline T *operator*(const MemStamp &stamp, T *p)$/;"	f	namespace:lg
+operator *	arm9\source\lg\scoped_ptr.h	/^		T& operator *  () const { assert(mPtr && "null pointer exception"); return *mPtr; }$/;"	f	class:luvafair::ScopedPtr
+operator *	arm9\source\lg\v2.h	/^	V2NoCtor operator*(luvafair::F32 d) const$/;"	f	class:V2NoCtor
+operator *=	arm9\source\lg\f32.h	/^		inline void operator*=(const F32& rhs)$/;"	f	class:luvafair::F32
+operator *=	arm9\source\lg\v2.h	/^	void operator*=(luvafair::F32 d)$/;"	f	class:V2NoCtor
+operator +	arm9\source\lg\f32.h	/^		inline F32 operator+(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator +	arm9\source\lg\string.cpp	/^	String String::operator+(char c) const$/;"	f	class:luvafair::String
+operator +	arm9\source\lg\string.cpp	/^	String String::operator+(const String& rhs) const$/;"	f	class:luvafair::String
+operator +	arm9\source\lg\v2.h	/^	V2NoCtor operator+(const V2NoCtor& rhs) const$/;"	f	class:V2NoCtor
+operator +	arm9\source\lg\v2.h	/^	V2NoCtor operator+(luvafair::F32 d) const$/;"	f	class:V2NoCtor
+operator +=	arm9\source\lg\f32.h	/^		inline void operator+=(const F32& rhs)$/;"	f	class:luvafair::F32
+operator +=	arm9\source\lg\string.cpp	/^	String& String::operator+=(char c)$/;"	f	class:luvafair::String
+operator +=	arm9\source\lg\string.cpp	/^	String& String::operator+=(const String& rhs)$/;"	f	class:luvafair::String
+operator +=	arm9\source\lg\v2.h	/^	void operator+=(const V2NoCtor& rhs)$/;"	f	class:V2NoCtor
+operator -	arm9\source\lg\f32.h	/^		inline F32 operator-() const$/;"	f	class:luvafair::F32
+operator -	arm9\source\lg\f32.h	/^		inline F32 operator-(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator -	arm9\source\lg\v2.h	/^	V2NoCtor operator-(const V2NoCtor& rhs) const$/;"	f	class:V2NoCtor
+operator -	arm9\source\lg\v2.h	/^	V2NoCtor operator-(luvafair::F32 d) const$/;"	f	class:V2NoCtor
+operator -=	arm9\source\lg\f32.h	/^		inline void operator-=(const F32& rhs)$/;"	f	class:luvafair::F32
+operator -=	arm9\source\lg\v2.h	/^	void operator-=(const V2NoCtor& rhs)$/;"	f	class:V2NoCtor
+operator ->	arm9\source\lg\scoped_ptr.h	/^		T* operator -> () const { assert(mPtr && "null pointer exception"); return  mPtr; }$/;"	f	class:luvafair::ScopedPtr
+operator /	arm9\source\lg\f32.h	/^		inline F32 operator\/(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator /	arm9\source\lg\v2.h	/^	V2NoCtor operator\/(luvafair::F32 d) const$/;"	f	class:V2NoCtor
+operator /=	arm9\source\lg\f32.h	/^		inline void operator\/=(const F32& rhs)$/;"	f	class:luvafair::F32
+operator /=	arm9\source\lg\v2.h	/^	void operator\/=(luvafair::F32 d)$/;"	f	class:V2NoCtor
+operator <	arm9\source\lg\f32.h	/^		inline bool operator<(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator <=	arm9\source\lg\f32.h	/^		inline bool operator<=(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator =	arm9\source\lg\string.cpp	/^	String& String::operator=(const String& rhs)$/;"	f	class:luvafair::String
+operator =	arm9\source\playerid.h	/^	void operator=(const PlayerId& rhs) { mId = rhs.mId; }$/;"	f	struct:PlayerId
+operator ==	arm9\source\lg\f32.h	/^		inline bool operator==(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator ==	arm9\source\lg\string.cpp	/^	bool operator==(const String& lhs, const String& rhs) { return lhs.Equals(rhs); }$/;"	f	namespace:luvafair
+operator ==	arm9\source\playerid.h	/^inline bool operator==(const PlayerId& lhs, const PlayerId& rhs)$/;"	f
+operator ==	arm9\source\playerid.h	/^inline bool operator==(const PlayerId& lhs, const int& rhs)$/;"	f
+operator ==	arm9\source\playerid.h	/^inline bool operator==(const int& lhs, const PlayerId& rhs)$/;"	f
+operator >	arm9\source\lg\f32.h	/^		inline bool operator>(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator >=	arm9\source\lg\f32.h	/^		inline bool operator>=(const F32& rhs) const$/;"	f	class:luvafair::F32
+operator []	arm9\source\lg\scoped_array.h	/^			T& operator[](std::ptrdiff_t i) const$/;"	f	class:luvafair::ScopedArray
+operator []	arm9\source\lg\string.h	/^			const char& operator[](int index) const { assert(index >= 0 && index <= mLength); return mText[index]; } \/\/ allow == length to get \\0 at end$/;"	f	class:luvafair::String
+operator bool	arm9\source\lg\scoped_array.h	/^			operator bool () const$/;"	f	class:luvafair::ScopedArray
+operator delete	arm9\source\lg\memtrack.cpp	/^void operator delete(void *p)$/;"	f
+operator delete[]	arm9\source\lg\memtrack.cpp	/^void operator delete[](void *p)$/;"	f
+operator int	arm9\source\playerid.h	/^	operator int() const { assert(mId == 0 || mId == 1); return mId; }$/;"	f	struct:PlayerId
+operator new	arm9\source\lg\memtrack.cpp	/^void *operator new(size_t size)$/;"	f
+operator new[]	arm9\source\lg\memtrack.cpp	/^void *operator new[](size_t size)$/;"	f
+order	arm7\source\Sound7.h	/^	u8 order[128];					\/\/ Array of pattern numbers to play$/;"	m	struct:_MOD
+orderCount	arm7\source\Sound7.h	/^	u8 orderCount;$/;"	m	struct:_MOD
+outputSprite	tsbuild.pl	/^sub outputSprite($)$/;"	s
+outputTiles	tsbuild.pl	/^sub outputTiles($)$/;"	s
+pad	arm7\source\Sound7.h	/^	u8 pad		: 7;	\/\/ Unused, align to 4 bytes$/;"	m	struct:_MOD_VIBRATO_PARAMS
+pad	arm7\source\Sound7.h	/^	u8 pad;$/;"	m	struct:_MOD
+pad2	arm7\source\Sound7.h	/^	u8 pad2		: 8;	\/\/ Unused, align to 4 bytes$/;"	m	struct:_MOD_VIBRATO_PARAMS
+pan	arm7\source\Sound7.h	/^	u8			pan;$/;"	m	struct:_SOUND_CHANNEL
+pan	arm7\source\Sound7.h	/^	u8 pan;					\/\/ Current pan (0-255)$/;"	m	struct:_MOD_CHANNEL
+param	SoundCommon.h	/^	u8 param[3];	\/\/ Depend on cmdType$/;"	m	struct:_SND_COMMAND
+param	arm7\source\Sound7.c	/^	u8				param;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+param	arm7\source\Sound7.h	/^	u8 param;				\/\/ Current param (set to 0 each row)$/;"	m	struct:_MOD_CHANNEL
+param32	SoundCommon.h	/^	u32 param32;	\/\/ Mainly for commands that need to send a pointer$/;"	m	struct:_SND_COMMAND
+patDelay	arm7\source\Sound7.h	/^	u8 patDelay;					\/\/ Rows left to wait (normally 0)$/;"	m	struct:_MOD
+patLoopCount	arm7\source\Sound7.h	/^	u8 patLoopCount;		\/\/ Number of times left to loop$/;"	m	struct:_MOD_CHANNEL
+patLoopPos	arm7\source\Sound7.h	/^	u8 patLoopPos;			\/\/ Set to current row when an E60 effect is used$/;"	m	struct:_MOD_CHANNEL
+pattern	arm7\source\Sound7.h	/^	u8 **pattern;					\/\/ Pointer to table of pointers to patterns$/;"	m	struct:_MOD
+period	arm7\source\Sound7.h	/^	u16 period;				\/\/ Current period of note being played$/;"	m	struct:_MOD_CHANNEL
+plus90	arm9\source\edge_arrows.h	/^	luvafair::SpriteMatrix plus90, minus90;$/;"	m	class:EdgeArrows
+portaSpeed	arm7\source\Sound7.h	/^	u8 portaSpeed;			\/\/ Current pitch slide up\/down speed$/;"	m	struct:_MOD_CHANNEL
+pos	arm9\source\object_mgr.h	/^		V2 pos;$/;"	m	class:WorldObject
+prev	arm9\source\lg\memtrack.cpp	/^		Header* prev;$/;"	m	struct:lg::Header	file:
+prev	arm9\source\lg\srast.h	/^		PolygonEdge* prev;$/;"	m	struct:SRastBuffer::PolygonEdge
+randSeed	arm9\source\saved_inputs.h	/^	u32 randSeed;$/;"	m	struct:SavedInputHeader
+removeEdge	arm9\source\lg\srast.h	/^	inline PolygonEdge *removeEdge(PolygonEdge *list, PolygonEdge *edge)$/;"	f	class:SRastBuffer
+research	arm9\source\edge_arrows.h	/^	luvafair::SpriteInstance right, down, left, up, build, research;$/;"	m	class:EdgeArrows
+researchart	arm9\source\edge_arrows.h	/^	luvafair::SpriteData buildart, researchart;$/;"	m	class:EdgeArrows
+result	arm9\source\techtree.h	/^	const char* result;$/;"	m	struct:TechnologyInfo
+retrigTick	arm7\source\Sound7.h	/^		u8 retrigTick;		\/\/ MOD ticks until note should retrigger$/;"	m	union:_MOD_CHANNEL::<anonymous>
+right	arm9\source\edge_arrows.h	/^	luvafair::SpriteInstance right, down, left, up, build, research;$/;"	m	class:EdgeArrows
+rowPtr	arm7\source\Sound7.h	/^	u8 *rowPtr;						\/\/ Current position in current pattern, for quick access$/;"	m	struct:_MOD
+sFoodInOrder	arm9\source\cpu_player.cpp	/^static BuildingIndex sFoodInOrder[] =$/;"	v	file:
+sHousingInOrder	arm9\source\cpu_player.cpp	/^static BuildingIndex sHousingInOrder[] =$/;"	v	file:
+sNextBlock	arm9\source\lg\texture.cpp	/^static uint32* sNextBlock = (uint32*)0x06800000;$/;"	v	file:
+sScenarios	arm9\source\fe.cpp	/^static const char* sScenarios[] =$/;"	v	file:
+sSchoolingInOrder	arm9\source\cpu_player.cpp	/^static BuildingIndex sSchoolingInOrder[] =$/;"	v	file:
+sample	arm7\source\Sound7.c	/^	u8				sample;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+sample	arm7\source\Sound7.h	/^	SAMPLE_HEADER sample[31];$/;"	m	struct:_MOD
+sample	arm7\source\Sound7.h	/^	u8 sample;				\/\/ Last sample used on this channel$/;"	m	struct:_MOD_CHANNEL
+saveGameName	arm9\source\saved_inputs.cpp	/^static const char* saveGameName = "fat:\/twnisles.sg";$/;"	v	file:
+scenario	arm9\source\saved_inputs.h	/^	int scenario;$/;"	m	struct:SavedInputHeader
+screenX	arm9\source\techtree.h	/^	u16 screenX, screenY;$/;"	m	struct:TechnologyInfo
+screenY	arm9\source\techtree.h	/^	u16 screenX, screenY;$/;"	m	struct:TechnologyInfo
+signature	arm9\source\lg\memtrack.cpp	/^		char signature[4];$/;"	m	struct:lg::Header	file:
+size	arm9\source\lg\memtrack.cpp	/^		size_t size;$/;"	m	struct:lg::Header	file:
+smpData	arm7\source\Sound7.h	/^	s8   *smpData;$/;"	m	struct:_SAMPLE_HEADER
+smpOffset	arm7\source\Sound7.c	/^	u8				smpOffset;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+sndChannel	arm7\source\Sound7.c	/^SOUND_CHANNEL	sndChannel[SND_MAX_CHANNELS];$/;"	v
+sndChn	arm7\source\Sound7.c	/^	SOUND_CHANNEL	*sndChn;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+sndControl	SoundCommon.h	81;"	d
+sndMod	arm7\source\Sound7.c	/^MOD				sndMod;$/;"	v
+sndVars	arm7\source\Sound7.c	/^SOUND_VARS		sndVars;$/;"	v
+speed	arm7\source\Sound7.h	/^	u8 speed	: 4;	\/\/ Added to tick each update$/;"	m	struct:_MOD_VIBRATO_PARAMS
+speed	arm7\source\Sound7.h	/^	u8 speed;$/;"	m	struct:_MOD
+src	arm7\source\ModFile.c	/^	const u8 *src;$/;"	m	struct:_MODFILE_LOAD_VARS	file:
+startSound	arm7\source\main.c	/^void startSound(int sampleRate, const void* data, u32 bytes, u8 channel, u8 vol,  u8 pan, u8 format) {$/;"	f
+state	arm7\source\Sound7.h	/^	u8 state;						\/\/ MOD_STATE enum (stopped\/playing\/paused)$/;"	m	struct:_MOD
+statsOffscreenBuffer	arm9\source\main.cpp	/^u16 statsOffscreenBuffer[SCREEN_WIDTH * SCREEN_HEIGHT];$/;"	v
+strForColours	tsbuild.pl	/^sub strForColours($$$)$/;"	s
+tempPos	arm7\source\main.c	/^touchPosition first,tempPos;$/;"	v
+tempo	arm7\source\Sound7.h	/^	u8 tempo;						\/\/ In BPM (Hz = BPM*2\/5)$/;"	m	struct:_MOD
+texFormatSpec	makefont.pl	/^sub texFormatSpec($)$/;"	s
+tick	arm7\source\Sound7.h	/^	u8 tick		: 6;	\/\/ Position in table. Full cycle is 64 ticks$/;"	m	struct:_MOD_VIBRATO_PARAMS
+tick	arm7\source\Sound7.h	/^	u8 tick;						\/\/ When this gets to speed, process a new row and reset it to 0$/;"	m	struct:_MOD
+timer	arm7\source\Sound7.h	/^	u16			timer;$/;"	m	struct:_SOUND_CHANNEL
+toFade	SoundCommon.h	/^	bool		toFade;$/;"	m	struct:_SND_CONTROL
+tonePortaNote	arm7\source\Sound7.h	/^	u8 tonePortaNote;		\/\/ Current note to slide toward$/;"	m	struct:_MOD_CHANNEL
+tonePortaSpeed	arm7\source\Sound7.h	/^	u8 tonePortaSpeed;		\/\/ Speed to slide toward it$/;"	m	struct:_MOD_CHANNEL
+top	arm9\source\lg\srast.h	/^		int top;$/;"	m	struct:SRastBuffer::PolygonEdge
+tremolo	arm7\source\Sound7.h	/^	MOD_VIBRATO_PARAMS tremolo;		\/\/ Vibrates volume$/;"	m	struct:_MOD_CHANNEL
+tremoloSlide	arm7\source\Sound7.c	/^	s8				tremoloSlide;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+up	arm9\source\edge_arrows.h	/^	luvafair::SpriteInstance right, down, left, up, build, research;$/;"	m	class:EdgeArrows
+updateFlags	arm7\source\Sound7.c	/^	u8				updateFlags;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+v	arm9\source\lg\f32.h	/^		int32 v;$/;"	m	class:luvafair::F32
+vcount	arm7\source\main.c	/^int vcount;$/;"	v
+vibrato	arm7\source\Sound7.h	/^	MOD_VIBRATO_PARAMS vibrato;		\/\/ Vibrates frequency$/;"	m	struct:_MOD_CHANNEL
+vibratoRandomTab	arm7\source\Sound7.c	/^static const s8 vibratoRandomTab[64] =$/;"	v	file:
+vibratoSineTab	arm7\source\Sound7.c	/^static const u8 vibratoSineTab[32] = $/;"	v	file:
+vibratoSlide	arm7\source\Sound7.c	/^	s8				vibratoSlide;$/;"	m	struct:_MOD_UPDATE_VARS	file:
+vol	arm7\source\Sound7.h	/^	u8			vol;$/;"	m	struct:_SOUND_CHANNEL
+vol	arm7\source\Sound7.h	/^	u8   vol;$/;"	m	struct:_SAMPLE_HEADER
+vol	arm7\source\Sound7.h	/^	u8 vol;					\/\/ Current volume$/;"	m	struct:_MOD_CHANNEL
+volslideSpeed	arm7\source\Sound7.h	/^	s8 volslideSpeed;		\/\/ Current volume slide speed$/;"	m	struct:_MOD_CHANNEL
+w	arm9\source\gui.h	/^	int w, h;$/;"	m	class:Arrow
+w	arm9\source\gui.h	/^	int w, h;$/;"	m	class:Button
+w	arm9\source\gui.h	/^	int w, h;$/;"	m	class:Image
+w	arm9\source\gui.h	/^	int w, h;$/;"	m	class:WrappedLabel
+w	arm9\source\lg\sprite.cpp	/^	u8 w, h;$/;"	m	struct:luvafair::WidthHeightToAttr	file:
+w	arm9\source\lg\srast.h	/^		int w; \/\/ fixed;$/;"	m	struct:SRastBuffer::PolygonEdge
+waveform	arm7\source\Sound7.h	/^	u8 waveform	: 2;	\/\/ Type of vibration. See MOD_WAVEFORM in Sound.c$/;"	m	struct:_MOD_VIBRATO_PARAMS
+whmap	arm9\source\lg\sprite.cpp	/^static const WidthHeightToAttr whmap[] =$/;"	v	file:
+width	arm9\source\lg\font.h	/^		u16 width;$/;"	m	struct:luvafair::FontData
+width	arm9\source\techtree.h	/^	u16 width, height;$/;"	m	struct:TechnologyInfo
+x	arm9\source\gui.h	/^	int x, y;$/;"	m	class:Arrow
+x	arm9\source\gui.h	/^	int x, y;$/;"	m	class:Button
+x	arm9\source\gui.h	/^	int x, y;$/;"	m	class:Image
+x	arm9\source\gui.h	/^	int x, y;$/;"	m	class:Label
+x	arm9\source\gui.h	/^	int x, y;$/;"	m	class:WrappedLabel
+x	arm9\source\lg\srast.h	/^		int x, dx; \/\/ fixed;$/;"	m	struct:SRastBuffer::PolygonEdge
+x	arm9\source\lg\v2.h	/^		luvafair::F32 x;$/;"	m	class:V2NoCtor
+xPositions	arm9\source\lg\font.h	/^		u16 xPositions[FontButton_LastButton - FontFirstCharacter + 1];$/;"	m	struct:luvafair::FontData
+y	arm9\source\gui.h	/^	int x, y;$/;"	m	class:Arrow
+y	arm9\source\gui.h	/^	int x, y;$/;"	m	class:Button
+y	arm9\source\gui.h	/^	int x, y;$/;"	m	class:Image
+y	arm9\source\gui.h	/^	int x, y;$/;"	m	class:Label
+y	arm9\source\gui.h	/^	int x, y;$/;"	m	class:WrappedLabel
+y	arm9\source\lg\v2.h	/^		luvafair::F32 y;$/;"	m	class:V2NoCtor
+~Buildings	arm9\source\sim.cpp	/^Buildings::~Buildings()$/;"	f	class:Buildings
+~GuiItem	arm9\source\gui.h	/^	virtual ~GuiItem() {}$/;"	f	class:GuiItem
+~SavedInputPlayer	arm9\source\saved_inputs.cpp	/^SavedInputPlayer::~SavedInputPlayer()$/;"	f	class:SavedInputPlayer
+~SavedInputSaver	arm9\source\saved_inputs.cpp	/^SavedInputSaver::~SavedInputSaver()$/;"	f	class:SavedInputSaver
+~Scenario	arm9\source\scenario.h	/^		virtual ~Scenario() {}$/;"	f	class:Scenario
+~ScenarioTimedPopulation	arm9\source\scenario.h	/^		virtual ~ScenarioTimedPopulation() {}$/;"	f	class:ScenarioTimedPopulation
+~ScopedArray	arm9\source\lg\scoped_array.h	/^			~ScopedArray()$/;"	f	class:luvafair::ScopedArray
+~ScopedPtr	arm9\source\lg\scoped_ptr.h	/^		~ScopedPtr() $/;"	f	class:luvafair::ScopedPtr
+~Screen	arm9\source\gui.cpp	/^Screen::~Screen()$/;"	f	class:Screen
+~SimSerializer	arm9\source\sim.h	/^	virtual ~SimSerializer() {}$/;"	f	struct:SimSerializer
+~SpriteInstance	arm9\source\lg\sprite.cpp	/^SpriteInstance::~SpriteInstance()$/;"	f	class:luvafair::SpriteInstance
+~String	arm9\source\lg\string.cpp	/^	String::~String()$/;"	f	class:luvafair::String
+~TrackCheckpoint	arm9\source\lg\memtrack.cpp	/^	TrackCheckpoint::~TrackCheckpoint()$/;"	f	class:lg::TrackCheckpoint
+~WorldObject	arm9\source\object_mgr.cpp	/^WorldObject::~WorldObject()$/;"	f	class:WorldObject

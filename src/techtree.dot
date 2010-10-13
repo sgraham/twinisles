@@ -1,0 +1,44 @@
+digraph G
+{
+// edge [arrowhead=none];
+node [shape=box, style=bold, fontname="verdana", margin="0.20,0.055", fontcolor=white, fontsize=18];
+edge [style=bold];
+rankdir="BT";
+
+	Farming -> Wheel
+	Farming -> Animal__Husbandry
+	Animal__Husbandry -> Agriculture
+	Masonry -> Mining
+	Metal_Work -> Mining
+	Irrigation -> Masonry
+	Machinery -> Metal_Work
+	Machinery -> Wheel
+	Machinery -> Fossil_Fuels
+	Mathematics -> Alphabet
+	Maps -> Alphabet
+	Maps -> Compass
+	War_Boats -> Maps
+	War_Boats -> Compass
+	Construction -> Masonry
+	Construction -> Wheel
+	Construction -> Metal_Work
+	Engineering -> Machinery
+	Engineering -> Mathematics
+	Currency -> Mathematics
+	Trade_Routes -> War_Boats
+	Trade_Routes -> Currency
+	Education -> Trade_Routes
+	Religion -> Trade_Routes
+	Medicine -> Irrigation
+	Medicine -> Engineering
+	Fusion -> Advanced_Construction
+	Fusion -> Medicine
+	Fossil_Fuels -> Metal_Work
+	Advanced_Construction -> Fossil_Fuels
+	Advanced_Construction -> Engineering
+	Advanced_Construction -> Construction
+	Advanced_Construction -> Currency
+	Tornado__Resistance -> Construction
+	Tornado__Resistance -> Irrigation
+	Tornado__Resistance -> Machinery
+}

@@ -1,0 +1,34 @@
+; -----------------------------------------------
+#tileset
+#tilebitmap <TileSetIdentifier>.png 32
+#end tilebitmap
+#end tileset
+
+#file maps.raw
+#tileset
+
+nummaps = <MapCount>
+numtiles = <TileCount>
+
+#map
+
+map <MapIdentifier>
+
+width = <MapWidth>
+height = <MapHeight>
+
+tiles = 
+#mapdata "" "," "," ","
+<TileNumber: "%d">
+#end mapdata
+
+flags = 
+#mapdata "" "," "," ","
+<MapCode: "%0d">
+#end mapdata
+
+endmap
+
+#end map
+#end tileset
+#end file

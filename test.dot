@@ -1,0 +1,472 @@
+digraph "G" {
+	graph [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		rankdir = "BT"
+		color = "black"
+	]
+	node [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	edge [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Farming" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Wheel" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Animal_Husbandry" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Agriculture" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Masonry" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Mining" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Metal_Work" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Irrigation" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Machinery" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Compass" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Mathematics" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Alphabet" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Maps" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Fishing_Boats" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Construction" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Engineering" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Currency" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Trade_Routes" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Education" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Sanitation" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Medicine" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Fossil_Fuels" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Advanced_Construction" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Advanced_Farming" [
+		fontsize = "14"
+		fontname = "verdana"
+		fontcolor = "white"
+		shape = "box"
+		color = "black"
+		style = "bold"
+		margin = "0.20,0.055"
+	]
+	"Farming" -> "Wheel" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Farming" -> "Animal_Husbandry" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Animal_Husbandry" -> "Agriculture" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Masonry" -> "Mining" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Metal_Work" -> "Mining" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Irrigation" -> "Masonry" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Machinery" -> "Metal_Work" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Machinery" -> "Wheel" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Compass" -> "Metal_Work" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Mathematics" -> "Alphabet" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Maps" -> "Alphabet" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Fishing_Boats" -> "Maps" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Fishing_Boats" -> "Compass" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Construction" -> "Masonry" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Construction" -> "Machinery" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Engineering" -> "Machinery" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Engineering" -> "Mathematics" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Currency" -> "Mathematics" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Trade_Routes" -> "Fishing_Boats" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Trade_Routes" -> "Currency" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Education" -> "Trade_Routes" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Sanitation" -> "Irrigation" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Medicine" -> "Education" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Medicine" -> "Sanitation" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Fossil_Fuels" -> "Metal_Work" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Advanced_Construction" -> "Fossil_Fuels" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Advanced_Construction" -> "Medicine" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Advanced_Construction" -> "Engineering" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Advanced_Construction" -> "Construction" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Advanced_Farming" -> "Engineering" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Advanced_Farming" -> "Farming" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Advanced_Farming" -> "Fossil_Fuels" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+	"Advanced_Farming" -> "Irrigation" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		color = "black"
+		style = "bold"
+	]
+}
